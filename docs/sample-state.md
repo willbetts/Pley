@@ -1,4 +1,4 @@
-{
+```{
   currentUser: {
     id: 1,
     email: "wjbetts@gmail.com"
@@ -57,4 +57,4 @@
     }
   }
   filters: [{price: 1}, orderPickupOrDelivery]
-}
+}```

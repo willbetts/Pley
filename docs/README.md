@@ -41,18 +41,17 @@ Pley is a web application inspired by Yelp built using Ruby on Rails and React/R
 buttons.
 * Clicking sign up or sign in buttons will display respective forms.
 
-### Phase 2: Home Page and Show Pages (1.5 days)
+### Phase 2: Search Bar (1.5 days)
+
+**Objective:** Users can search for a business or by tags.
+* a basic search will be implemented.
+* It will be visible on the home page, show page, and search index page.
+
+### Phase 3: Home Page and Show Pages (1.5 days)
 
 **Objective:** Show page is functional.
 * Home pages is styled correctly minus the search bar.
 * Show page displays business information and is styled correctly minus the reviews and form.
-
-### Phase 3: - Maps (2 day)
-
-**Objective:** User can see where a business is on a map.
-* map appears in search index.
-* map appears in search index once implemented.
-* Profile page contains favorite restaurants.
 
 ### Phase 4: Reviews (1.5 days)
 
@@ -60,12 +59,12 @@ buttons.
 * User can navigate to reviews of business.
 * Users can write a review of a business.
 
+### Phase 5: - Maps (2 days)
 
-### Phase 5: Search Bar (1.5 days)
-
-**Objective:** Users can search for a business or by tags.
-* a basic search will be implemented.
-* It will be visible on the home page, show page, and search index page.
+**Objective:** User can see where a business is on a map.
+* map appears in search index.
+* map appears in search index once implemented.
+* Profile page contains favorite restaurants.
 
 ### Phase 6: Filters (1.5 days)
 

@@ -37,7 +37,6 @@
 | "/sign-up"                  | "AuthFormContainer"         |
 | "/sign-in"                  | "AuthFormContainer"         |
 | "/business/:id"             | "BusinessShow"              |
-| "/business/:id/reviews"     | "ReviewsContainer"          |
 | "/business/:id/reviews/new" | "ReviewsForm"               |
 | "/search"                   | "Search"                    |
 | "/search-filters"           | "Filters"                   |

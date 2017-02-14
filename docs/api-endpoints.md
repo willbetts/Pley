@@ -27,4 +27,4 @@
 - `GET /api/businesses/:id/reviews`
   - index of all reviews for the business
 - `POST /api/businesses/:id/reviews`
-- `DELETE /api/businesses/:id/review`
+- `DELETE /api/reviews/:id`
