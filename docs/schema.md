@@ -33,7 +33,7 @@ id              | integer   | not null, primary key
 rating          | integer   | not null
 body            | string    | not null
 user_id         | integer   | not null, foreign key (references users), indexed
-business_id     | integer   | not null, foreign key (references businesses'), indexed
+business_id     | integer   | not null, foreign key (references businesses'), indexed  
 
 ## tags
 column name       | data type | details
