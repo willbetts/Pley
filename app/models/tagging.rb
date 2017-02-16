@@ -9,7 +9,8 @@
 
 class Tagging < ActiveRecord::Base
 
-  belongs_to :user
+  belongs_to :business
   belongs_to :tag
-  validates :business_id, :tag_id, presence: true
+  validates :business, :tag, presence: true
+  
 end
