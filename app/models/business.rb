@@ -17,5 +17,29 @@
 class Business < ActiveRecord::Base
   validates :name, :business_type, :image_url, :address, :phone_number, :hours, :price, presence: true;
   has_many :taggings
+  has_many :tags, through: :taggings, source: :tag
+
+  def self.search(query)
+    Business
+      .left_joins(:tags)
+      .where(
+        "LOWER(businesses.name) LIKE :query OR LOWER(tags.name) LIKE :query",
+        query: "%#{query.downcase}%"
+      )
+  end
 
 end
+
+
+<<-SQL
+  SELECT DISTINCT
+    businesses.*
+  FROM
+    businesses
+  JOIN
+    taggings ON business.id = taggings.business_id
+  JOIN
+    tags ON taggings.tag_id = tags.id
+  WHERE
+    business.name LIKE ? OR tag.name LIKE ?
+SQL

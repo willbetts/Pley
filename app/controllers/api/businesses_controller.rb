@@ -1,5 +1,10 @@
 class Api::BusinessesController < ApplicationController
 
+  def index
+    @businesses = Business.search(params[:query])
+    render :index
+  end
+
   def create
     @business=Business.new(business_params)
     if !(@business.save)
