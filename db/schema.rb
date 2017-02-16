@@ -10,14 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170216150554) do
+ActiveRecord::Schema.define(version: 20170216161941) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "businesses", force: :cascade do |t|
     t.string  "name",            null: false
-    t.string  "type",            null: false
+    t.string  "business_type",   null: false
     t.string  "image_url",       null: false
     t.string  "address",         null: false
     t.string  "phone_number",    null: false
@@ -25,8 +25,8 @@ ActiveRecord::Schema.define(version: 20170216150554) do
     t.json    "hours",           null: false
     t.integer "price",           null: false
     t.boolean "pickup_delivery"
+    t.index ["business_type"], name: "index_businesses_on_business_type", using: :btree
     t.index ["name"], name: "index_businesses_on_name", using: :btree
-    t.index ["type"], name: "index_businesses_on_type", using: :btree
   end
 
   create_table "taggings", force: :cascade do |t|
