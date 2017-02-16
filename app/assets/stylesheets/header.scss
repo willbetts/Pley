@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+
+}
+
+.login-buttons {
+  // position: fixed;
+  justify-content: flex-end;
+  display: flex;
+  padding-right: 250px;
+  padding-top: 40px;
+  opacity: 0.5;
+  z-index: 100;
+
+}
+
+.hdrbtn {
+
+  font-family:'Helvetica Neue';
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+#signup{
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  border-color: white;
+  padding: 8px 30px;
+}
+
+#signup:hover{
+  background-color: white;
+  color: grey;
+}
+
+#login:hover{
+  border-bottom: 2px solid white;
+}
+
+#login {
+  margin-right: 27px;
+  padding: 8px 12px;
+
+}
+
+.homepage {
+  background-image: url("http://localhost:3000/assets/doughnut-82eb7559952b6c744278a794091e8da1974377f2aad3ec02a6deb58cbdc81f6e.jpg");
+  // position: fixed;
+  overflow: scroll;
+  z-index: 99;
+  top: 0;
+  height: 100vh;
+}
