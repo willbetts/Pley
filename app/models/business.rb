@@ -4,7 +4,7 @@
 #
 #  id              :integer          not null, primary key
 #  name            :string           not null
-#  type            :string           not null
+#  business_type   :string           not null
 #  image_url       :string           not null
 #  address         :string           not null
 #  phone_number    :string           not null
@@ -15,7 +15,7 @@
 #
 
 class Business < ActiveRecord::Base
-  validates :name, :type, :image_url, :address, :phone_number, :hours, :price, presence: true;
+  validates :name, :business_type, :image_url, :address, :phone_number, :hours, :price, presence: true;
   has_many :taggings
 
 end
