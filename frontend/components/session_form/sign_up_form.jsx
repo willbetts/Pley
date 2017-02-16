@@ -42,33 +42,33 @@ import { Link } from 'react-router';
                      placeholder="First Name"
                      value={this.state.first_name}
                      onChange={this.update("first_name")}
-                     className="sign-up-input" />
+                     className="auth-form-input" />
               <br/>
               <input type="text"
                      placeholder= "Last Name"
                      value={this.state.last_name}
                      onChange={this.update("last_name")}
-                     className="sign-up-input" />
+                     className="auth-form-input" />
               <br/>
               <input type="text"
                      placeholder="Email"
                      value ={this.state.email}
                      onChange={this.update("email")}
-                     className="sign-up-input" />
+                     className="auth-form-input" />
               <br/>
               <input type="password"
                      placeholder="Password"
                      value={this.state.password}
                      onChange={this.update("password")}
-                     className="sign-up-input" />
+                     className="auth-form-input" />
               <br/>
               <input type="text"
                      placeholder="Birthday (mm/dd/yyyy)"
                      value={this.state.birthday}
                      onChange={this.update("birthday")}
-                     className="sign-up-input" />
+                     className="auth-form-input" />
               <br/>
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Sign Up" id="auth-form-button" />
               <br/>
               <div> Already on Pley?
                 <Link to="/login">  Log in</Link>

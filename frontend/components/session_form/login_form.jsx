@@ -45,7 +45,7 @@ class LogInForm extends React.Component {
                   placeholder= "Email"
                   value={this.state.email}
                   onChange={this.update("email")}
-                  className="login-input" />
+                  className="auth-form-input" />
             </div>
             <br/>
             <div className="user-input">
@@ -53,10 +53,10 @@ class LogInForm extends React.Component {
                   placeholder= "Password"
                   value={this.state.password}
                   onChange={this.update("password")}
-                  className="login-input" />
+                  className="auth-form-input" />
             </div>
             <br/>
-            <input type="submit" value="Submit" />
+              <input type="submit" value="Log In" id="auth-form-button"/>
         </form>
       </div>
     );

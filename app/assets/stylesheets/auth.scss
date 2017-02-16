@@ -3,11 +3,16 @@
   padding-left: 400px;
   font-family: 'Helvetica Neue';
   justify-content: center;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
 }
 
 #log-in-to-pley {
   padding-bottom: 20px;
-  color: red;
+  color: firebrick;
   font-weight: bold;
   font-size: 150%;
 }
@@ -16,17 +21,22 @@
   font-weight: bold;
 }
 
-.login-form {
-  padding-bottom: 10px;
+#submit:input{
+  height: 5vh;
 }
 
-.user-input {
-  width: 200%;
+.auth-form-input{
+  height: 3vh;
+  margin: 3px;
+  width: 30%;
+  font-size: 15px;
+  box-shadow: 10px;
 }
+
 
 #sign-up-for-pley{
   padding-bottom: 20px;
-  color: red;
+  color: firebrick;
   font-weight: bold;
   font-size: 150%;
 }
@@ -36,4 +46,13 @@
   padding-left: 400px;
   font-family: 'Helvetica Neue';
   justify-content: center;
+}
+
+#auth-form-button {
+  background: firebrick;
+  width: 31%;
+  color: white;
+  height: 5vh;
+  font-size: 15px;
+  font-weight: bold;
 }
