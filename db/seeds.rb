@@ -6,7 +6,13 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-User.create(
+User.destroy_all
+Business.destroy_all
+Tag.destroy_all
+Tagging.destroy_all
+
+
+user_1 = User.create(
   first_name: "guest",
   last_name: "guest",
   email: "guest@guest.com",
@@ -15,7 +21,7 @@ User.create(
   session_token: "1111111111111111"
   )
 
-Business.create(
+business_1 = Business.create(
   name: "Peter Lugers",
   business_type: "restaurant",
   image_url: ("https://peterluger.com/media/catalog/category/product-detail-img01.jpg"),
@@ -27,6 +33,11 @@ Business.create(
   pickup_delivery: false
 )
 
-Tag.create(
+tag_1 = Tag.create(
   name: "steak"
+)
+
+Tagging.create(
+  business_id: business_1.id,
+  tag_id: tag_1.id
 )
