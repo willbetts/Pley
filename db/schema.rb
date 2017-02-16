@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170216150146) do
+ActiveRecord::Schema.define(version: 20170216150554) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -27,6 +27,11 @@ ActiveRecord::Schema.define(version: 20170216150146) do
     t.boolean "pickup_delivery"
     t.index ["name"], name: "index_businesses_on_name", using: :btree
     t.index ["type"], name: "index_businesses_on_type", using: :btree
+  end
+
+  create_table "taggings", force: :cascade do |t|
+    t.integer "business_id", null: false
+    t.integer "tag_id",      null: false
   end
 
   create_table "tags", force: :cascade do |t|
@@ -46,4 +51,6 @@ ActiveRecord::Schema.define(version: 20170216150146) do
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
   end
 
+  add_foreign_key "taggings", "businesses"
+  add_foreign_key "taggings", "tags"
 end
