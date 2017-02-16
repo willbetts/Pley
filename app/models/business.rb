@@ -15,7 +15,7 @@
 #
 
 class Business < ActiveRecord::Base
-
+  validates :name, :type, :image_url, :address, :phone_number, :hours, :price, presence: true;
   has_many :taggings
-  
+
 end
