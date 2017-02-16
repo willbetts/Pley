@@ -44,6 +44,6 @@ name              | string    | not null, indexed
 ## taggings
 column name     | data type | details
 ----------------|-----------|-----------------------
-id              | integer   | not null, foreign key (references users), indexed
+id              | integer   | not null, foreign key 
 business_id     | integer   | not null, foreign key (references businesses'), indexed
 tag_id          | integer   | not null, foreign key (references tags), indexed
