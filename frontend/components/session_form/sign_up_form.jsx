@@ -35,7 +35,9 @@ import { Link } from 'react-router';
     render () {
       return (
         <div className="signup-form-container">
+          {this.props.resetErrors}
           <form onSubmit={this.handleSubmit} className="signup-form-box">
+            {this.renderErrors()}
             <div className="sign-up-form">
               <br/>
               <input type="text"

@@ -45,8 +45,12 @@ class SessionForm extends React.Component {
         </div>
           {
             this.props.formType === "login" ?
-              <LogInForm processForm={this.props.processForm} errors={this.props.errors}/> :
-              <SignUpForm processForm={this.props.processForm} errors={this.props.errors}/>
+              <LogInForm processForm={this.props.processForm}
+													receiveErrors={this.props.receiveErrors}
+													errors={this.props.errors}/> :
+              <SignUpForm processForm={this.props.processForm}
+													receiveErrors={this.props.receiveErrors}
+													errors={this.props.errors}/>
           }
 
       </div>
