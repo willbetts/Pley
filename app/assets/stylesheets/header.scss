@@ -3,6 +3,13 @@
 
 }
 
+.hdrbtn {
+
+  font-family:'Helvetica Neue';
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .login-buttons {
   // position: fixed;
   justify-content: flex-end;
@@ -14,15 +21,41 @@
 
 }
 
-.hdrbtn {
-
+.log-out-button {
+  display: flex;
+  justify-content: flex-end;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  border-color: white;
+  padding: 8px 30px;
+  opacity: 0.5;
   font-family:'Helvetica Neue';
-  text-decoration: none;
   font-weight: bold;
 }
 
+#logout {
+  font-family:'Helvetica Neue';
+}
 
-#signup{
+
+
+#guest {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  border-color: white;
+  padding: 8px 30px;
+  opacity: 0.5;
+}
+
+#guest:hover{
+  background-color: white;
+  color: grey;
+}
+
+
+#signup {
   border-style: solid;
   border-width: 2px;
   border-radius: 4px;
@@ -45,11 +78,11 @@
 
 }
 
-.homepage {
-  background-image: url("http://localhost:3000/assets/doughnut-82eb7559952b6c744278a794091e8da1974377f2aad3ec02a6deb58cbdc81f6e.jpg");
-  // position: fixed;
-  overflow: scroll;
-  z-index: 99;
-  top: 0;
-  height: 100vh;
-}
+// .homepage {
+//   background-image: url("http://localhost:3000/assets/doughnut-82eb7559952b6c744278a794091e8da1974377f2aad3ec02a6deb58cbdc81f6e.jpg");
+//   // position: fixed;
+//   overflow: scroll;
+//   z-index: 99;
+//   top: 0;
+//   height: 100vh;
+// }
