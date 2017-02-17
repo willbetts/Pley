@@ -12,9 +12,9 @@ class BusinessSearch extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    this.props.fetchBusinesses();
+    // this.props.fetchBusinesses();
     this.props.router.push({
-      path: "/search",
+      pathname: "/search",
       query: { query: this.state.query }
     });
   }
@@ -38,4 +38,4 @@ class BusinessSearch extends React.Component {
 
 }
 
-export default BusinessSearch;
+export default withRouter(BusinessSearch);
