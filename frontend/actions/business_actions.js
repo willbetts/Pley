@@ -4,10 +4,10 @@ export const RECEIVE_ALL_BUSINESSES = "RECEIVE_ALL_BUSINESSES";
 
 export const fetchBusinesses = () => dispatch => (
   APIUtil.fetchBusinesses()
-  .then(() => dispatch(receiveBusinesses()))
+  .then((query) => dispatch(receiveBusinesses(query)))
 );
 
-export const receiveBusinesses = () => ({
+export const receiveBusinesses = businesses => ({
   type: RECEIVE_ALL_BUSINESSES,
   businesses
 });
