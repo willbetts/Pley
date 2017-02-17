@@ -1,24 +1,16 @@
-.header {
-  display: flex;
-
-}
-
 .hdrbtn {
 
   font-family:'Helvetica Neue';
-  text-decoration: none;
   font-weight: bold;
 }
 
 .login-buttons {
-  // position: fixed;
   justify-content: flex-end;
   display: flex;
   padding-right: 250px;
   padding-top: 40px;
-  opacity: 0.5;
   z-index: 100;
-
+  color: white;
 }
 
 .log-out-button {
@@ -32,7 +24,6 @@
   border-radius: 4px;
   border-color: white;
   padding: 8px 30px;
-  opacity: 0.5;
   font-family:'Helvetica Neue';
   font-weight: bold;
 }
@@ -44,12 +35,7 @@
 
 
 #guest {
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 4px;
-  border-color: white;
   padding: 8px 30px;
-  opacity: 0.5;
 }
 
 #guest:hover{
@@ -64,6 +50,7 @@
   border-radius: 4px;
   border-color: white;
   padding: 8px 30px;
+  color: white;
 }
 
 #signup:hover{
@@ -76,16 +63,8 @@
 }
 
 #login {
+  color: white;
   margin-right: 27px;
   padding: 8px 12px;
 
 }
-
-// .homepage {
-//   background-image: url("http://localhost:3000/assets/doughnut-82eb7559952b6c744278a794091e8da1974377f2aad3ec02a6deb58cbdc81f6e.jpg");
-//   // position: fixed;
-//   overflow: scroll;
-//   z-index: 99;
-//   top: 0;
-//   height: 100vh;
-// }

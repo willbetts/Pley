@@ -1,0 +1,61 @@
+.welcome {
+  height: 5vh;
+}
+
+#doughnut-image-container {
+  position: absolute;
+  z-index: -5;
+}
+
+#dougnut-image {
+  height: 100vh;
+  width: 100vw;
+}
+
+#welcome-search-container{
+
+  padding-top: 25vh;
+
+}
+
+// #search-form-box {
+//   display: flex;
+// }
+
+#search-form-input {
+  height: 5vh;
+  width: 50vh;
+  font-size: 20px;
+}
+
+#search-form-button {
+  background: white;
+}
+
+#search-form{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Helvetica Neue';
+}
+
+#search-form-button {
+  height: 5vh;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 10px;
+}
+
+.logo img{
+  opacity: 1;
+}
+
+
+
+// .auth-form-input{
+//   height: 3vh;
+//   margin: 3px;
+//   width: 30%;
+//   font-size: 15px;
+//   box-shadow: 10px;
+// }
