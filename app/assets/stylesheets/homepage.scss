@@ -1,5 +1,7 @@
 .welcome {
-  height: 5vh;
+  // height: 5vh;
+  background-image: image-url("doughnut.jpg");
+  background-size: cover;
 }
 
 #doughnut-image-container {
@@ -46,9 +48,6 @@
   padding-left: 10px;
 }
 
-.logo img{
-  opacity: 1;
-}
 
 
 
