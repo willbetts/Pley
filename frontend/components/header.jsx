@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router'
 
 const Header = (props) => {
-
+  debugger
   if (props.currentUser) {
     return (
       <div className="log-out-button">

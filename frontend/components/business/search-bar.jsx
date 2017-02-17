@@ -31,7 +31,6 @@ class BusinessSearch extends React.Component {
             onChange={(e) => this.setState({query: e.currentTarget.value })}
             id="search-form-input"/>
           </div>
-
         </form>
       </div>
     );
