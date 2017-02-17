@@ -4,7 +4,7 @@ import SessionReducer from './session_reducer';
 
 const rootReducer = combineReducers({
   session: SessionReducer,
-  business: BusinessReducer
+  businesses: BusinessReducer
 });
 
 export default rootReducer;

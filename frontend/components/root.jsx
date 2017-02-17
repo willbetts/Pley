@@ -4,7 +4,7 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 import App from './app'
 import SessionFormContainer from './session_form/session_form_container'
 import Welcome from './welcome'
-import BusinessSearch from './business/search-bar';
+import BusinessSearchResults from './business/business_search_result_container';
 
 const _redirectIfLoggedIn = (nextState, replace) => {
   const currentUser = store.getState().session.currentUser;
@@ -27,6 +27,7 @@ const Root = ({ store }) => (
       </Route>
       <Route path="/login" component={ SessionFormContainer } onEnter={_redirectIfLoggedIn}/>
       <Route path="/signup" component={ SessionFormContainer } onEnter={_redirectIfLoggedIn}/>
+      <Route path="/search" component={ BusinessSearchResults }/>
     </Router>
   </Provider>
 );
