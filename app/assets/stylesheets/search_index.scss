@@ -1,11 +1,10 @@
 #search-header-results-container > ul{
   padding-top: 3vh;
-  // height: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   background: firebrick;
-
+  padding-bottom: 2vh;
 }
 
 .business-login-buttons{
@@ -28,8 +27,6 @@ button#business-logout{
 }
 
 ul.business-login-buttons {
-  // padding-top: 50px;
-  // padding-bottom: 20px;
   margin-bottom: 20px;
 }
 
@@ -37,12 +34,42 @@ a.business-hdrbtn {
   margin-left: 10px;
   font-family:'Helvetica Neue';
   font-weight: bold;
-
-  // padding: 8px 30px;
   background: firebrick;
   border-width: 1px;
   border-color: black;
   color: white;
   border-radius: 3px;
   font-size: 13px;
+}
+
+.business-info{
+  display: flex;
+  margin: 10% 30%;
+
+  list-style: none;
+  font-family: 'Helvetica Neue';
+  border-bottom-style: solid;
+  border-bottom-color: orange;
+  border-width: 1px;
+}
+
+.business-name{
+  padding-left: 2vw;
+  padding-bottom: 2vh;
+  font-size: 20px;
+}
+
+.business-price-and-tags{
+  padding-left: 2vw;
+  display: flex;
+
+}
+
+.business-address-and-phone-number{
+  padding-top: 2vh;
+  padding-left: 20vw;
+}
+
+#business-tags{
+  padding-left: 1vw;
 }

@@ -1,3 +1,5 @@
+
+
 json.array! @businesses do |business|
   json.id business.id
   json.name business.name
@@ -8,4 +10,6 @@ json.array! @businesses do |business|
   json.hours business.hours
   json.price business.price
   json.pickupDelivery business.pickup_delivery
+  tags = business.tags.map {|tag| tag.name}
+  json.tags tags
 end

@@ -28,7 +28,7 @@ business_1 = Business.create(
   phone_number: "(718)-387-7400",
   website:"https://peterluger.com",
   hours: {monday: "1-1"},
-  price: 4,
+  price: "$$$$",
   pickup_delivery: false
 )
 
@@ -38,5 +38,21 @@ tag_1 = Tag.create(
 
 Tagging.create(
   business_id: business_1.id,
+  tag_id: tag_1.id
+)
+
+business_2 = Business.create(
+  name: "Peter Bugers",
+  business_type: "restaurant",
+  address: "178 Broadway, Brooklyn, NY 11211",
+  phone_number: "(718)-387-7400",
+  website:"https://peterluger.com",
+  hours: {monday: "1-1"},
+  price: "$$$$",
+  pickup_delivery: false
+)
+
+Tagging.create(
+  business_id: business_2.id,
   tag_id: tag_1.id
 )
