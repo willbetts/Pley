@@ -3,6 +3,7 @@
 import React from "react";
 import { withRouter } from 'react-router';
 import BusinessSearch from './business_search';
+import BusinessHeader from './business_header_container';
 
 class BusinessSearchResults extends React.Component {
 
@@ -12,30 +13,33 @@ class BusinessSearchResults extends React.Component {
       newProps.fetchBusinesses(query);
     }
     this.prevQuery = query;
-
-    console.log("props have been received");
   }
 
   componentDidMount() {
     const query = this.props.router.location.query.query;
     this.props.fetchBusinesses(query);
-    console.log("mounted");
   }
 
 
   displayBusinesses() {
     return this.props.businesses.map( (business) =>
-      <li>{business.name}</li>
+      <div>
+        <li>{business.name}</li>
+        <img src={business.imageUrl}/>
+      </div>
     );
   }
 
   render() {
     return (
-      <div>
-        <ul>
-          {this.displayBusinesses()}
-        </ul>
-        <BusinessSearch />
+      <div id="search-results-container">
+        <div id="search-header-results-container">
+          <ul>
+            <BusinessSearch id="business-search" />
+            <BusinessHeader/>
+          </ul>
+        </div>
+      {this.displayBusinesses()}
       </div>
     );
   }

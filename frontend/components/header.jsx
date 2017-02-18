@@ -7,7 +7,7 @@ const Header = (props) => {
       <div className="log-out-button">
         <button id="logout" onClick={props.logout}>Log Out</button>
       </div>
-    )
+    );
   } else {
       return(
           <ul className="login-buttons">
@@ -17,7 +17,7 @@ const Header = (props) => {
                 props.login({
                   email: "guest@guest.com",
                   password: "starwars"
-                })
+                });
               }}>
               Guest Log In
             </a>

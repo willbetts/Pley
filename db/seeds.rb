@@ -24,7 +24,6 @@ user_1 = User.create(
 business_1 = Business.create(
   name: "Peter Lugers",
   business_type: "restaurant",
-  image_url: ("https://peterluger.com/media/catalog/category/product-detail-img01.jpg"),
   address: "178 Broadway, Brooklyn, NY 11211",
   phone_number: "(718)-387-7400",
   website:"https://peterluger.com",

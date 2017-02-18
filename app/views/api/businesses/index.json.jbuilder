@@ -1,5 +1,11 @@
 json.array! @businesses do |business|
-  json.extract! business, :id, :name, :image_url, :address,
-  :phone_number, :website, :hours, :price,
-  :pickup_delivery
+  json.id business.id
+  json.name business.name
+  json.imageUrl business.image.url
+  json.address business.address
+  json.phoneNumber business.phone_number
+  json.website business.website
+  json.hours business.hours
+  json.price business.price
+  json.pickupDelivery business.pickup_delivery
 end

@@ -15,9 +15,10 @@
 #
 
 class Business < ActiveRecord::Base
-  validates :name, :business_type, :image_url, :address, :phone_number, :hours, :price, presence: true;
+  validates :name, :business_type, :address, :phone_number, :hours, :price, presence: true;
   has_many :taggings
   has_many :tags, through: :taggings, source: :tag
+  has_attached_file :image, default_url: "/assets/steak.jpg"
 
   def self.search(query)
     Business
@@ -31,15 +32,15 @@ class Business < ActiveRecord::Base
 end
 
 
-<<-SQL
-  SELECT DISTINCT
-    businesses.*
-  FROM
-    businesses
-  JOIN
-    taggings ON business.id = taggings.business_id
-  JOIN
-    tags ON taggings.tag_id = tags.id
-  WHERE
-    business.name LIKE ? OR tag.name LIKE ?
-SQL
+# <<-SQL
+#   SELECT DISTINCT
+#     businesses.*
+#   FROM
+#     businesses
+#   JOIN
+#     taggings ON business.id = taggings.business_id
+#   JOIN
+#     tags ON taggings.tag_id = tags.id
+#   WHERE
+#     business.name LIKE ? OR tag.name LIKE ?
+# SQL
