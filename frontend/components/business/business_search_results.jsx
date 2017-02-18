@@ -23,9 +23,21 @@ class BusinessSearchResults extends React.Component {
 
   displayBusinesses() {
     return this.props.businesses.map( (business) =>
-      <div>
-        <li>{business.name}</li>
-        <img src={business.imageUrl}/>
+      <div className="business-info">
+        <div>
+          <img src={business.imageUrl}/>
+        </div>
+        <div>
+          <li className="business-name">{business.name}</li>
+          <div className="business-price-and-tags">
+            <li>{business.price}</li>
+            <li id="business-tags">{business.tags}</li>
+          </div>
+        </div>
+        <div className="business-address-and-phone-number">
+          <li>{business.address}</li>
+          <li>{business.phoneNumber}</li>
+        </div>
       </div>
     );
   }
