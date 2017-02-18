@@ -10,21 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170216161941) do
+ActiveRecord::Schema.define(version: 20170217213452) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "businesses", force: :cascade do |t|
-    t.string  "name",            null: false
-    t.string  "business_type",   null: false
-    t.string  "image_url",       null: false
-    t.string  "address",         null: false
-    t.string  "phone_number",    null: false
-    t.string  "website"
-    t.json    "hours",           null: false
-    t.integer "price",           null: false
-    t.boolean "pickup_delivery"
+    t.string   "name",               null: false
+    t.string   "business_type",      null: false
+    t.string   "address",            null: false
+    t.string   "phone_number",       null: false
+    t.string   "website"
+    t.json     "hours",              null: false
+    t.integer  "price",              null: false
+    t.boolean  "pickup_delivery"
+    t.string   "photo_file_name"
+    t.string   "photo_content_type"
+    t.integer  "photo_file_size"
+    t.datetime "photo_updated_at"
     t.index ["business_type"], name: "index_businesses_on_business_type", using: :btree
     t.index ["name"], name: "index_businesses_on_name", using: :btree
   end
