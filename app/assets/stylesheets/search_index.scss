@@ -1,7 +1,6 @@
-#search-header-results-container ul{
+#search-header-results-container > ul{
   padding-top: 3vh;
-
-  height: 10vh;
+  // height: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -10,9 +9,40 @@
 }
 
 .business-login-buttons{
-
+  margin-left: 10px;
 }
 
-.business-log-out-button{
+
+
+button#business-logout{
+  margin-bottom: 20px;
+  text-align: center;
   margin-left: 10px;
+  font-family:'Helvetica Neue';
+  font-weight: bold;
+  background: firebrick;
+  border-width: 0px;
+  color: white;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+ul.business-login-buttons {
+  // padding-top: 50px;
+  // padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+a.business-hdrbtn {
+  margin-left: 10px;
+  font-family:'Helvetica Neue';
+  font-weight: bold;
+
+  // padding: 8px 30px;
+  background: firebrick;
+  border-width: 1px;
+  border-color: black;
+  color: white;
+  border-radius: 3px;
+  font-size: 13px;
 }
