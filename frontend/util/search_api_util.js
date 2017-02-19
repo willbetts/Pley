@@ -5,3 +5,10 @@ export const fetchBusinesses = (query) => {
     data: { query }
   }));
 };
+
+export const fetchBusiness = (id) => {
+  return ($.ajax ({
+    method: 'GET',
+    url: `api/businesses/${id}`,
+  }));
+};

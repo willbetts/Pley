@@ -5,6 +5,7 @@ import App from './app'
 import SessionFormContainer from './session_form/session_form_container'
 import Welcome from './welcome'
 import BusinessSearchResults from './business/business_search_result_container';
+import BusinessShowContainer from './business/business_show_container';
 
 const _redirectIfLoggedIn = (nextState, replace) => {
   const currentUser = store.getState().session.currentUser;
@@ -28,6 +29,7 @@ const Root = ({ store }) => (
       <Route path="/login" component={ SessionFormContainer } onEnter={_redirectIfLoggedIn}/>
       <Route path="/signup" component={ SessionFormContainer } onEnter={_redirectIfLoggedIn}/>
       <Route path="/search" component={ BusinessSearchResults }/>
+      <Route path="/businesses/:id" component={BusinessShowContainer}/>
     </Router>
   </Provider>
 );

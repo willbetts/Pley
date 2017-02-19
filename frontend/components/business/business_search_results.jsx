@@ -1,11 +1,11 @@
-//componentDidMount fetchBusinesses(query)
-//get query from router
 import React from "react";
-import { withRouter } from 'react-router';
+import {Link, withRouter } from 'react-router';
 import BusinessSearch from './business_search';
 import BusinessHeader from './business_header_container';
 
+
 class BusinessSearchResults extends React.Component {
+
 
   componentWillReceiveProps(newProps){
     const query = this.props.router.location.query.query;
@@ -20,15 +20,24 @@ class BusinessSearchResults extends React.Component {
     this.props.fetchBusinesses(query);
   }
 
+  handleClick(e) {
+    const businessId = this.props.business.id;
+    e.preventDefault();
+    this.props.router.push(`businesses/${businessId}`);
+  }
 
   displayBusinesses() {
     return this.props.businesses.map( (business) =>
-      <div className="business-info">
+      <div className="business-info" key={business.id}>
         <div>
           <img src={business.imageUrl}/>
         </div>
         <div>
-          <li className="business-name">{business.name}</li>
+          <li className="business-name">
+            <Link to={`/businesses/${business.id}`}>
+              {business.name}
+            </Link>
+          </li>
           <div className="business-price-and-tags">
             <li>{business.price}</li>
             <li id="business-tags">{business.tags}</li>
@@ -45,7 +54,7 @@ class BusinessSearchResults extends React.Component {
   render() {
     return (
       <div id="search-results-container">
-        <div id="search-header-results-container">
+        <div className="search-header-results-container">
           <ul>
             <BusinessSearch id="business-search" />
             <BusinessHeader/>

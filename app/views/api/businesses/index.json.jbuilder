@@ -1,5 +1,3 @@
-
-
 json.array! @businesses do |business|
   json.id business.id
   json.name business.name

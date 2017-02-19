@@ -65,7 +65,6 @@ buttons.
 **Objective:** User can see where a business is on a map.
 * map appears in search index.
 * map appears in search index once implemented.
-* Profile page contains favorite restaurants.
 
 ### Phase 6: Filters (1.5 days)
 
