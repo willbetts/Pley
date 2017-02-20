@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170218214413) do
+ActiveRecord::Schema.define(version: 20170220162953) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,6 +30,14 @@ ActiveRecord::Schema.define(version: 20170218214413) do
     t.string   "price"
     t.index ["business_type"], name: "index_businesses_on_business_type", using: :btree
     t.index ["name"], name: "index_businesses_on_name", using: :btree
+  end
+
+  create_table "reviews", force: :cascade do |t|
+    t.string  "title",       null: false
+    t.string  "body",        null: false
+    t.integer "stars",       null: false
+    t.integer "business_id", null: false
+    t.integer "user_id",     null: false
   end
 
   create_table "taggings", force: :cascade do |t|
@@ -54,6 +62,8 @@ ActiveRecord::Schema.define(version: 20170218214413) do
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
   end
 
+  add_foreign_key "reviews", "businesses"
+  add_foreign_key "reviews", "users"
   add_foreign_key "taggings", "businesses"
   add_foreign_key "taggings", "tags"
 end
