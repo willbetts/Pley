@@ -18,6 +18,7 @@ class Business < ActiveRecord::Base
   validates :name, :business_type, :address, :phone_number, :hours, :price, presence: true;
   has_many :taggings
   has_many :tags, through: :taggings, source: :tag
+  has_many :reviews
   has_attached_file :image,  default_url: "/assets/steak.jpg"
 
   def self.search(query)

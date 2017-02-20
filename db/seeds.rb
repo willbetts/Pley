@@ -56,3 +56,11 @@ Tagging.create(
   business_id: business_2.id,
   tag_id: tag_1.id
 )
+
+review_1 = Review.create(
+  title: "So Yummy!",
+  body: "God Damn, that was a good steak",
+  stars: 5,
+  business_id: business_1.id,
+  user_id: user_1.id
+)
