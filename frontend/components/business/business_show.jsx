@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import BusinessSearch from './business_search';
-import BusinessHeader from './business_header';
+import BusinessHeader from './business_header_container';
 import { Link } from 'react-router';
-import ReviewIndex from '../reviews/review_index';
+import ReviewIndexContainer from '../reviews/review_index_container';
+import ReviewForm from '../reviews/review_form_container';
 
 class BusinessShow extends Component {
   constructor(props){
     super(props);
+
   }
 
   componentDidMount(){
@@ -42,7 +44,8 @@ class BusinessShow extends Component {
           </div>
         </div>
         <div>
-          <ReviewIndex reviews={this.props.business.reviews} />
+          <ReviewIndexContainer reviews={this.props.business.reviews} />
+          <ReviewForm/>
         </div>
       </div>
   );}

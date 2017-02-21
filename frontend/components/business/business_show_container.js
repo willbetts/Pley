@@ -4,7 +4,8 @@ import  BusinessShow  from './business_show';
 
 const mapStateToProps = (state) => {
   return{
-  business: state.business
+  business: state.business,
+  currentUser: state.session.currentUser
 }};
 
 const mapDispatchToProps = (dispatch) => ({

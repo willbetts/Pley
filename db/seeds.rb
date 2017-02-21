@@ -64,3 +64,35 @@ review_1 = Review.create(
   business_id: business_1.id,
   user_id: user_1.id
 )
+
+review_2 = Review.create(
+  title: "So Yummy!",
+  body: "God Damn, that was a good steak",
+  stars: 5,
+  business_id: business_1.id,
+  user_id: user_1.id
+)
+
+review_3 = Review.create(
+  title: "So Yummy!",
+  body: "God Damn, that was a good steak",
+  stars: 5,
+  business_id: business_1.id,
+  user_id: user_1.id
+)
+
+review_4 = Review.create(
+  title: "So Yummy!",
+  body: "God Damn, that was a good steak",
+  stars: 5,
+  business_id: business_1.id,
+  user_id: user_1.id
+)
+
+review_5 = Review.create(
+  title: "So Yummy!",
+  body: "God Damn, that was a good steak",
+  stars: 5,
+  business_id: business_1.id,
+  user_id: user_1.id
+)
