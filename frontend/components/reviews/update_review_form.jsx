@@ -1,31 +1,10 @@
 import React from 'react';
 
-class ReviewForm extends React.Component {
+class UpdateReviewForm extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      title: "",
-      body: "",
-      stars: 1
-    };
     this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  handleSubmit(e) {
-    e.preventDefault();
-    const newReview = {
-      title: this.state.title,
-      body: this.state.body,
-      stars: this.state.stars,
-      business_id: this.props.business.id
-    };
-    this.props.createReview(this.props.business.id, newReview).then (
-      () => this.setState({
-        title: "",
-        body: "",
-        stars: 1,
-      })
-    );
+    this.state = this.props.review;
   }
 
   update(property) {
@@ -34,6 +13,17 @@ class ReviewForm extends React.Component {
 
   selectStar(num){
     this.setState({stars: num});
+  }
+
+  handleSubmit(e) {
+    e.preventDefault();
+    const updatedReview = {
+      title: this.state.title,
+      body: this.state.body,
+      stars: this.state.stars,
+      business_id: this.props.business.id
+    };
+    this.props.updateReview(this.state);
   }
 
   render(){
@@ -64,4 +54,4 @@ class ReviewForm extends React.Component {
   )};
 }
 
-export default ReviewForm;
+export default UpdateReviewForm;

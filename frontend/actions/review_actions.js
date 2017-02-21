@@ -16,8 +16,8 @@ export const deleteReview = (reviewId) => dispatch => (
   ReviewUtil.destroyReview(reviewId).then(review => dispatch(removeReview(review)))
 );
 
-export const updateReview = (businessId, reviewId) => dispatch => (
-  ReviewUtil.updateReview(businessId, reviewId).then(review => dispatch(receiveReview(review)))
+export const updateReview = (review) => dispatch => (
+  ReviewUtil.updateReview(review).then(review => dispatch(receiveReview(review)))
 );
 
 export const removeReview = (review) => ({

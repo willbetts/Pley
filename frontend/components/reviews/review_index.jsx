@@ -1,16 +1,10 @@
 import React from 'react';
+import ReviewIndexItem from './review_index_item_container';
 
 class ReviewIndex extends React.Component {
   constructor(props){
     super(props);
     this.displayReviews = this.displayReviews.bind(this);
-  }
-
-  handleDelete(review){
-    if (this.props.currentUser && this.props.currentUser.id === review.user_id){
-      return <button onClick={this.props.deleteReview.bind(null, review.id)}>Delete Review</button>;
-    }
-    return null;
   }
 
   displayReviews(){
@@ -19,10 +13,7 @@ class ReviewIndex extends React.Component {
       return this.props.reviews.map( (review) => {
         return (
           <div key={review.id}>
-            <li>{review.title}</li>
-            <li>{review.body}</li>
-            <li>{review.stars}</li>
-            <li>{this.handleDelete(review)}</li>
+            <ReviewIndexItem review={review}/>
           </div>
         );
 
