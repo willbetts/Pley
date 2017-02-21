@@ -17,7 +17,10 @@ const BusinessesReducer = (state = {}, action) => {
     case RECEIVE_REVIEW:
        newState = merge({}, state);
       const newReview = action.review;
-      newState.reviews.push(newReview);
+      newState.reviews = state.reviews.map((review) => review.id === newReview.id ? newReview : review);
+      if (!newState.reviews.some((review) => review.id === newReview.id)){
+        newState.reviews.push(newReview);
+      }
       return newState;
     default:
       return state;
