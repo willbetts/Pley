@@ -35,6 +35,7 @@ class BusinessSearchResults extends React.Component {
         <div>
           <li className="business-name">
             <Link to={`/businesses/${business.id}`}>
+              {this.props.currentUser}
               {business.name}
             </Link>
           </li>
@@ -52,6 +53,7 @@ class BusinessSearchResults extends React.Component {
   }
 
   render() {
+
     return (
       <div id="search-results-container">
         <div className="search-header-results-container">
