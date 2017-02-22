@@ -40,22 +40,25 @@ class ReviewForm extends React.Component {
     return (
     <div className="review-form-container">
       <form className="review-form" onSubmit={ this.handleSubmit }>
-        <h1>Submit a Review!</h1>
-        <div className="rating">
-          {[1,2,3,4,5].map((num) => {
-            let className = num <= this.state.stars ? "fa fa-star" : "fa fa-star-o";
-            return <li key={num} onClick={() => this.selectStar(num)}><i className={className} id="rating-stars" aria-hidden="true"></i></li>;
-            })}
+        <div className="review-form-left">
+          <h1>Submit a Review!</h1>
+          <div className="rating">
+            {[1,2,3,4,5].map((num) => {
+              let className = num <= this.state.stars ? "fa fa-star" : "fa fa-star-o";
+              return <li key={num} onClick={() => this.selectStar(num)}><i className={className} id="rating-stars" aria-hidden="true"></i></li>;
+              })}
+          </div>
+          <button className="review-buttons" id="submit-review-button">Submit Review</button>
         </div>
-        <button className="review-buttons" id="submit-review-button">Submit Review</button>
         <div className="review-form-inputs">
-          <input
-            placeholder = "title"
+          <input className="title-input"
+            placeholder = "Give your review a title"
             type="text"
             value={this.state.title}
             onChange={this.update('Title')}
           />
-          <textarea
+        <textarea className="body-input"
+            placeholder="Type your review here!"
             value={this.state.body}
             onChange={this.update('body')}
             ></textarea>
