@@ -47,7 +47,7 @@ class UpdateReviewForm extends React.Component {
             return <li key={num} onClick={() => this.selectStar(num)}><i className={className} aria-hidden="true"></i></li>;
           })}
         </div>
-        <button>Submit Review</button>
+        <button>Submit Updated Review</button>
 
       </form>
     </div>

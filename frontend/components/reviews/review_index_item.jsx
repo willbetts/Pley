@@ -10,7 +10,7 @@ class ReviewIndexItem extends React.Component {
 
   handleDelete(review){
     if (this.props.currentUser && this.props.currentUser.id === review.user_id){
-      return <button onClick={this.props.deleteReview.bind(null, review.id)}>Delete Review</button>;
+      return <button className="review-buttons" id="delete-button" onClick={this.props.deleteReview.bind(null, review.id)}>Delete Review</button>;
     }
     return null;
   }
@@ -21,21 +21,37 @@ class ReviewIndexItem extends React.Component {
 
   handleUpdate(review) {
     if (this.props.currentUser && this.props.currentUser.id === review.user_id){
-      return <button onClick={this.toggleForm.bind(this)}>Update</button>;
+      return <button className="review-buttons" id="update-button" onClick={this.toggleForm.bind(this)}>Update Review</button>;
     }
+  }
+
+  displayStars(){
+    const result=[];
+      for (let i = 0; i < this.props.review.stars; i++){
+        result.push(<li className="fa fa-star"></li>);
+      }
+      return result;
   }
 
 
   render(){
     return (
-      <ul>
-        <li>{this.props.review.title}</li>
-        <li>{this.props.review.body}</li>
-        <li>{this.props.review.stars}</li>
+      <div className="review-container">
+        <div className="review-text">
+          <div className="review-title">
+            <div className="stars">
+              {this.displayStars()}
+            </div>
+            <li>{this.props.review.title}</li>
+          </div>
+          <li>{this.props.review.body}</li>
+        </div>
+      <div className="review-buttons-container" >
         <li>{this.handleDelete(this.props.review)}</li>
         <li>{this.handleUpdate(this.props.review)}</li>
         <li>{this.state.formOpen ? <UpdateReviewForm review={this.props.review}/> : "" }</li>
-      </ul>
+      </div>
+    </div>
     );}
 }
 
