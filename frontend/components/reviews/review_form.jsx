@@ -55,7 +55,7 @@ class ReviewForm extends React.Component {
             placeholder = "Give your review a title"
             type="text"
             value={this.state.title}
-            onChange={this.update('Title')}
+            onChange={this.update('title')}
           />
         <textarea className="body-input"
             placeholder="Type your review here!"
