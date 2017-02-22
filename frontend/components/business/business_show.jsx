@@ -31,7 +31,7 @@ class BusinessShow extends Component {
             <BusinessSearch/>
             <BusinessHeader/>
           </ul>
-          <div className="business-info" key={this.props.business.id}>
+          <div className="business-info" id="show-page-info" key={this.props.business.id}>
             <div>
               <img src={this.props.business.imageUrl}/>
             </div>

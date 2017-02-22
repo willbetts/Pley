@@ -30,24 +30,24 @@ class UpdateReviewForm extends React.Component {
     return (
     <div>
       <form onSubmit={ this.handleSubmit }>
-        <label>Title
-          <input
-            type="text"
-            value={this.state.title}
-            onChange={this.update('title')}
-          />
-        </label>
-        <textarea
+      <div className="review-form-inputs">
+        <input className="title-input"
+          type="text"
+          value={this.state.title}
+          onChange={this.update('title')}
+        />
+        <textarea className="body-input"
           value={this.state.body}
           onChange={this.update('body')}
           ></textarea>
+        </div>
         <div className="rating">
           {[1,2,3,4,5].map((num) => {
             let className = num <= this.state.stars ? "fa fa-star" : "fa fa-star-o";
             return <li key={num} onClick={() => this.selectStar(num)}><i className={className} aria-hidden="true"></i></li>;
           })}
         </div>
-        <button>Submit Updated Review</button>
+        <button className="review-buttons">Submit Updated Review </button>
 
       </form>
     </div>
