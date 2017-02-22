@@ -54,8 +54,8 @@ class BusinessShow extends Component {
           </div>
         </div>
         <div className="business-reviews">
-          <ReviewIndexContainer reviews={this.props.business.reviews} />
           <ReviewForm/>
+          <ReviewIndexContainer reviews={this.props.business.reviews} />
         </div>
       </div>
   );}

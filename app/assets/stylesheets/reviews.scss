@@ -13,7 +13,7 @@
   padding-top: 5vh;
   padding-left: 30%;
   font-family:'Helvetica Neue';
-  border-top: 1px solid orange;
+
 }
 
 .review-title {
@@ -58,14 +58,15 @@
 
 .review-form {
   border-top: 1px solid orange;
-  // margin-bottom: 10px;
+  padding-left: 31%;
+  padding-top: 5%;
+  font-family:'Helvetica Neue';
+  margin-right: 20%;
 }
 
-#rating-stars {
-  text-decoration: none;
-}
 
 .rating{
+  list-style-type: none;
   display: flex;
 }
 
@@ -73,6 +74,10 @@
   margin-bottom: 80px;
 }
 
-.business-reviews {
-  display: inline-flex;
+.review-form-inputs {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  padding-right: 20%;
+  margin-bottom: 30px;
 }
