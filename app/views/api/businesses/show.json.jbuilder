@@ -10,3 +10,4 @@
   tags = @business.tags.map {|tag| tag.name}
   json.tags tags
   json.reviews @business.reviews
+  json.averageReview @business.average_review

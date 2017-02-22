@@ -10,4 +10,5 @@ json.array! @businesses do |business|
   json.pickupDelivery business.pickup_delivery
   tags = business.tags.map {|tag| tag.name}
   json.tags tags
+  json.averageReview business.average_review
 end

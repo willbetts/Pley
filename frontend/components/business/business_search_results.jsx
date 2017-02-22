@@ -26,6 +26,14 @@ class BusinessSearchResults extends React.Component {
     this.props.router.push(`businesses/${businessId}`);
   }
 
+  displayStars(business){
+    const result=[];
+      for (let i = 0; i < business.averageReview; i++){
+        result.push(<li className="fa fa-star"></li>);
+      }
+      return result;
+  }
+
   displayBusinesses() {
     return this.props.businesses.map( (business) =>
       <div className="business-info" key={business.id}>
@@ -39,6 +47,9 @@ class BusinessSearchResults extends React.Component {
               {business.name}
             </Link>
           </li>
+          <div className="stars">
+              {this.displayStars(business)}
+          </div>
           <div className="business-price-and-tags">
             <li>{business.price}</li>
             <li id="business-tags">{business.tags}</li>
@@ -53,7 +64,6 @@ class BusinessSearchResults extends React.Component {
   }
 
   render() {
-
     return (
       <div id="search-results-container">
         <div className="search-header-results-container">

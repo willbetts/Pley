@@ -30,6 +30,16 @@ class Business < ActiveRecord::Base
       )
   end
 
+
+  def average_review
+    num = 0
+    self.reviews.each do |review|
+      num = num + review.stars
+    end
+    return num / self.reviews.length unless self.reviews.length === 0
+    nil
+  end
+
 end
 
 

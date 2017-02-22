@@ -18,9 +18,3 @@ const BusinessesReducer = (state = [], action) => {
 };
 
 export default BusinessesReducer;
-
-
-
-// case RECEIVE_BUSINESS:
-// debugger
-// return action.business;

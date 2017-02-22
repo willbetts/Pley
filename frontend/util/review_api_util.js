@@ -6,14 +6,13 @@ export const fetchReviews = (businessId) => (
 );
 
 export const createReview = (businessId, review) => {
-  debugger
   return $.ajax({
     method: 'POST',
     url: `/api/reviews/`,
     dataType: 'json',
     contentType: 'application/json',
     data: JSON.stringify({ review })
-  })
+  });
 };
 
 export const destroyReview = (reviewId) => (

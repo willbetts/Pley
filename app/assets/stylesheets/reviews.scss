@@ -1,3 +1,78 @@
-// Place all the styles related to the Reviews controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.fa-star {
+  color: firebrick;
+  padding-right: 3px;
+  font-size: 21px;
+}
+
+.stars {
+  padding-left: 25px;
+  padding-bottom: 8px;
+}
+
+#review-index {
+  padding-top: 5vh;
+  padding-left: 30%;
+  font-family:'Helvetica Neue';
+  border-top: 1px solid orange;
+}
+
+.review-title {
+  font-weight: bold;
+  font-size: 24px;
+
+}
+
+.review-container {
+  display: flex;
+  padding-top: 40px;
+}
+
+.review-text {
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.review-buttons {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: white;
+  background: firebrick;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 3px;
+}
+
+.review-buttons-container {
+  padding-left: 20px;
+}
+
+#update-button{
+  margin-top: 20px;
+}
+
+#delete-button{
+  margin-left: 2px;
+}
+
+.review-form {
+  border-top: 1px solid orange;
+  // margin-bottom: 10px;
+}
+
+#rating-stars {
+  text-decoration: none;
+}
+
+.rating{
+  display: flex;
+}
+
+#submit-review-button {
+  margin-bottom: 80px;
+}
+
+.business-reviews {
+  display: inline-flex;
+}

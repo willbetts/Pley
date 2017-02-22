@@ -15,6 +15,13 @@ class BusinessShow extends Component {
     this.props.fetchBusiness(this.props.params.id);
   }
 
+  displayStars(){
+    const result=[];
+      for (let i = 0; i < this.props.business.averageReview; i++){
+        result.push(<li className="fa fa-star"></li>);
+      }
+      return result;
+  }
 
   render() {
     return (
@@ -32,6 +39,9 @@ class BusinessShow extends Component {
                 <li className="business-name">
                   {this.props.business.name}
                 </li>
+                <div className="stars">
+                    {this.displayStars()}
+                </div>
               <div className="business-price-and-tags">
                 <li>{this.props.business.price}</li>
                 <li id="business-tags">{this.props.business.tags}</li>
@@ -43,7 +53,7 @@ class BusinessShow extends Component {
             </div>
           </div>
         </div>
-        <div>
+        <div className="business-reviews">
           <ReviewIndexContainer reviews={this.props.business.reviews} />
           <ReviewForm/>
         </div>
