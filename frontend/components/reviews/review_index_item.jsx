@@ -28,7 +28,7 @@ class ReviewIndexItem extends React.Component {
   displayStars(){
     const result=[];
       for (let i = 0; i < this.props.review.stars; i++){
-        result.push(<li className="fa fa-star"></li>);
+        result.push(<li className="fa fa-star" key={i}></li>);
       }
       return result;
   }
@@ -36,7 +36,7 @@ class ReviewIndexItem extends React.Component {
 
   render(){
     return (
-      <div className="review-container">
+      <div className="review-container" >
         <div className="review-text">
           <div className="review-title">
             <div className="stars">

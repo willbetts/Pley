@@ -38,6 +38,7 @@ class SessionForm extends React.Component {
 	}
 
 	render() {
+		{this.props.resetErrors}
 		return (
       <div>
         <div className="login-form-container">
@@ -47,9 +48,11 @@ class SessionForm extends React.Component {
             this.props.formType === "login" ?
               <LogInForm processForm={this.props.processForm}
 													receiveErrors={this.props.receiveErrors}
+													resetErrors={this.props.resetErrors}
 													errors={this.props.errors}/> :
               <SignUpForm processForm={this.props.processForm}
 													receiveErrors={this.props.receiveErrors}
+													resetErrors={this.props.resetErrors}
 													errors={this.props.errors}/>
           }
 

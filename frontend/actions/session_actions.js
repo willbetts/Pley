@@ -32,7 +32,6 @@ export const receiveErrors = errors => ({
   errors
 });
 
-export const resetErrors = errors => ({
+export const resetErrors = () => ({
   type: RESET_ERRORS,
-  errors
 });
