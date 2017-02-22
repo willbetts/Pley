@@ -32,10 +32,10 @@ class LogInForm extends React.Component {
   }
 
   render() {
+    {this.props.resetErrors}
     return (
-
       <div className="login-form-container">
-        {this.props.resetErrors}
+
         <form onSubmit={this.handleSubmit} className="login-form-box">
 
           {this.renderErrors()}

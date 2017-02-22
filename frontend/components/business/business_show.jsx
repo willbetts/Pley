@@ -4,6 +4,7 @@ import BusinessHeader from './business_header_container';
 import { Link } from 'react-router';
 import ReviewIndexContainer from '../reviews/review_index_container';
 import ReviewForm from '../reviews/review_form_container';
+import BusinessMap from './business_map';
 
 class BusinessShow extends Component {
   constructor(props){
@@ -18,7 +19,7 @@ class BusinessShow extends Component {
   displayStars(){
     const result=[];
       for (let i = 0; i < this.props.business.averageReview; i++){
-        result.push(<li className="fa fa-star"></li>);
+        result.push(<li className="fa fa-star" key={i}></li>);
       }
       return result;
   }
@@ -52,6 +53,7 @@ class BusinessShow extends Component {
               <li>{this.props.business.phoneNumber}</li>
             </div>
           </div>
+          <BusinessMap/>
         </div>
         <div className="business-reviews">
           <ReviewForm/>
