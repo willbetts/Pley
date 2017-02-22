@@ -40,24 +40,26 @@ class ReviewForm extends React.Component {
     return (
     <div className="review-form-container">
       <form className="review-form" onSubmit={ this.handleSubmit }>
+        <h1>Submit a Review!</h1>
+        <div className="rating">
+          {[1,2,3,4,5].map((num) => {
+            let className = num <= this.state.stars ? "fa fa-star" : "fa fa-star-o";
+            return <li key={num} onClick={() => this.selectStar(num)}><i className={className} id="rating-stars" aria-hidden="true"></i></li>;
+            })}
+        </div>
+        <button className="review-buttons" id="submit-review-button">Submit Review</button>
+        <div className="review-form-inputs">
           <input
             placeholder = "title"
             type="text"
             value={this.state.title}
             onChange={this.update('Title')}
           />
-        <textarea
-          value={this.state.body}
-          onChange={this.update('body')}
-          ></textarea>
-        <div className="rating">
-          {[1,2,3,4,5].map((num) => {
-            let className = num <= this.state.stars ? "fa fa-star" : "fa fa-star-o";
-            return <li key={num} onClick={() => this.selectStar(num)}><i className={className} id="rating-stars" aria-hidden="true"></i></li>;
-          })}
+          <textarea
+            value={this.state.body}
+            onChange={this.update('body')}
+            ></textarea>
         </div>
-        <button className="review-buttons" id="submit-review-button">Submit Review</button>
-
       </form>
     </div>
   )};
