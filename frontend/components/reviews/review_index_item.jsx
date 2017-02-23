@@ -36,20 +36,20 @@ class ReviewIndexItem extends React.Component {
 
   render(){
     return (
-      <div className="review-container" >
-        <div className="review-text">
+      <div className="review-container">
+        <div>
           <div className="review-title">
-            <div className="stars">
-              {this.displayStars()}
-            </div>
-            <li>{this.props.review.title}</li>
+            <li className="review-text">{this.props.review.title}</li>
           </div>
-          <li>{this.props.review.body}</li>
+          <div className="stars">
+            {this.displayStars()}
+          </div>
+          <li className="review-text">{this.props.review.body}</li>
         </div>
       <div className="review-buttons-container" >
-        <li>{this.handleDelete(this.props.review)}</li>
-        <li>{this.handleUpdate(this.props.review)}</li>
-        <li>{this.state.formOpen ? <UpdateReviewForm review={this.props.review}/> : "" }</li>
+        <li className="review-button">{this.handleDelete(this.props.review)}</li>
+        <li className="review-button">{this.handleUpdate(this.props.review)}</li>
+        <li>{this.state.formOpen ? <UpdateReviewForm review={this.props.review} toggleForm={this.toggleForm.bind(this)}/> : "" }</li>
       </div>
     </div>
     );}

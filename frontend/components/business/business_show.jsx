@@ -9,8 +9,17 @@ import BusinessMap from './business_map';
 class BusinessShow extends Component {
   constructor(props){
     super(props);
-
+    // this.state = {
+    //   reviewed: this.props.business.reviewed
+    // };
   }
+
+  // componentWillReceiveProps(newProps){
+  //   if (newProps.business.reviewed) {
+  //     debugger
+  //     this.setState({reviewed: true});
+  //   }
+  // }
 
   componentDidMount(){
     this.props.fetchBusiness(this.props.params.id);
@@ -22,6 +31,12 @@ class BusinessShow extends Component {
         result.push(<li className="fa fa-star" key={i}></li>);
       }
       return result;
+  }
+
+  renderForm(){
+    if (!this.props.business.reviewed) {
+      return <ReviewForm/>;
+    }
   }
 
   render() {
@@ -56,7 +71,7 @@ class BusinessShow extends Component {
           <BusinessMap/>
         </div>
         <div className="business-reviews">
-          <ReviewForm/>
+          {this.renderForm()}
           <ReviewIndexContainer reviews={this.props.business.reviews} />
         </div>
       </div>

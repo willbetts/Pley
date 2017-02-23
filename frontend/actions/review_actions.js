@@ -20,9 +20,9 @@ export const updateReview = (review) => dispatch => (
   ReviewUtil.updateReview(review).then(review => dispatch(receiveReview(review)))
 );
 
-export const removeReview = (review) => ({
+export const removeReview = (response) => ({
   type: REMOVE_REVIEW,
-  review
+  response
 });
 
 export const receiveReviews = (reviews) => ({
@@ -30,7 +30,7 @@ export const receiveReviews = (reviews) => ({
   reviews
 });
 
-export const receiveReview = (review) => ({
+export const receiveReview = (response) => ({
   type: RECEIVE_REVIEW,
-  review
+  response
 });

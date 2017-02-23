@@ -23,7 +23,8 @@ class UpdateReviewForm extends React.Component {
       stars: this.state.stars,
       business_id: this.props.business.id
     };
-    this.props.updateReview(this.state);
+    this.props.updateReview(this.state).then(this.props.toggleForm());
+
   }
 
   render(){
