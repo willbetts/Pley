@@ -30,6 +30,13 @@ class Business < ActiveRecord::Base
       )
   end
 
+  def reviewed?(currentUser)
+    if currentUser
+      self.reviews.any? { |review| review.user_id == currentUser.id }
+    else
+      false
+    end
+  end
 
   def average_review
     num = 0

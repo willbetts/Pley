@@ -19,13 +19,7 @@ class ReviewForm extends React.Component {
       stars: this.state.stars,
       business_id: this.props.business.id
     };
-    this.props.createReview(this.props.business.id, newReview).then (
-      () => this.setState({
-        title: "",
-        body: "",
-        stars: 1,
-      })
-    );
+    this.props.createReview(this.props.business.id, newReview);
   }
 
   update(property) {

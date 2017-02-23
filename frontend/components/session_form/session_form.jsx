@@ -18,6 +18,14 @@ class SessionForm extends React.Component {
 		}
 	}
 
+	componentWillReceiveProps(newProps){
+		const currentPath = this.props.route.path;
+		if (currentPath !== this.oldRoutePath){
+			newProps.resetErrors();
+		}
+		this.oldRoutePath = currentPath;
+	}
+
 	navLink() {
 		if (this.props.formType === "login") {
 			return (
@@ -38,7 +46,7 @@ class SessionForm extends React.Component {
 	}
 
 	render() {
-		{this.props.resetErrors}
+
 		return (
       <div>
         <div className="login-form-container">

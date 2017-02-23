@@ -7,14 +7,17 @@
 .stars {
   padding-left: 25px;
   padding-bottom: 8px;
+  // display: block;
 }
 
 #review-index {
-  margin-top: 2vh;
   margin-top: 5vh;
   padding-left: 30%;
+  padding-right: 30%;
   font-family:'Helvetica Neue';
-
+  width: 500px;
+  word-wrap: break-word;
+  // margin-right: 30vw;
 }
 
 .review-title {
@@ -26,12 +29,19 @@
 .review-container {
   display: flex;
   padding-top: 40px;
+  // margin-right: 20%;
+  // width: 60%;
 }
 
+.review-container div {
+  width: 100%;
+}
+
+
 .review-text {
-  padding-bottom: 20px;
-  margin-left: 20px;
-  margin-bottom: 10px;
+  display: block;
+  padding: 30px;
+  width: 100%;
 }
 
 .review-buttons {
@@ -43,10 +53,19 @@
   font-weight: bold;
   border-style: none;
   border-radius: 3px;
+  width: 100px;
+  height: 60px;
+
+  // float: right;
 }
 
 .review-buttons-container {
-  padding-left: 20px;
+    // padding-left: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    // float: right;
+  // position: fixed;
 }
 
 #update-button{
@@ -54,7 +73,7 @@
 }
 
 #delete-button{
-  margin-left: 2px;
+  // margin-left: 2px;
 }
 
 .review-form {
