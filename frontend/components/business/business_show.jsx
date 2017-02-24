@@ -9,17 +9,8 @@ import BusinessMap from './business_map';
 class BusinessShow extends Component {
   constructor(props){
     super(props);
-    // this.state = {
-    //   reviewed: this.props.business.reviewed
-    // };
-  }
 
-  // componentWillReceiveProps(newProps){
-  //   if (newProps.business.reviewed) {
-  //     debugger
-  //     this.setState({reviewed: true});
-  //   }
-  // }
+  }
 
   componentDidMount(){
     this.props.fetchBusiness(this.props.params.id);
