@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170220162953) do
+ActiveRecord::Schema.define(version: 20170223212634) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -33,11 +33,15 @@ ActiveRecord::Schema.define(version: 20170220162953) do
   end
 
   create_table "reviews", force: :cascade do |t|
-    t.string  "title",       null: false
-    t.string  "body",        null: false
-    t.integer "stars",       null: false
-    t.integer "business_id", null: false
-    t.integer "user_id",     null: false
+    t.string   "title",                       null: false
+    t.string   "body",                        null: false
+    t.integer  "stars",                       null: false
+    t.integer  "business_id",                 null: false
+    t.integer  "user_id",                     null: false
+    t.string   "business_photo_file_name"
+    t.string   "business_photo_content_type"
+    t.integer  "business_photo_file_size"
+    t.datetime "business_photo_updated_at"
   end
 
   create_table "taggings", force: :cascade do |t|

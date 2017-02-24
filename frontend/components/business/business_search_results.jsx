@@ -2,6 +2,7 @@ import React from "react";
 import {Link, withRouter } from 'react-router';
 import BusinessSearch from './business_search';
 import BusinessHeader from './business_header_container';
+import NavLogo from '../nav_logo';
 
 
 class BusinessSearchResults extends React.Component {
@@ -66,13 +67,18 @@ class BusinessSearchResults extends React.Component {
   render() {
     return (
       <div id="search-results-container">
-        <div className="search-header-results-container">
+        <header className="search-header-results-container">
+          <div className="logo-wrapper">
+            <NavLogo id="nav-logo-container"/>
+          </div>
           <ul>
             <BusinessSearch id="business-search" />
             <BusinessHeader/>
           </ul>
+        </header>
+        <div className = "business-info-container">
+          {this.displayBusinesses()}
         </div>
-      {this.displayBusinesses()}
       </div>
     );
   }
