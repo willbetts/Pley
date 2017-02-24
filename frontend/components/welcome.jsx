@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './header_container';
 import BusinessSearch from './business/business_search';
-import Logo from './Logo';
+import Logo from './logo';
 
 
 const Welcome = (props) => (
