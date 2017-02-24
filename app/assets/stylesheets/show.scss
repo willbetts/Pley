@@ -1,0 +1,44 @@
+.business-name-show {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: 'Helvetica Neue';
+}
+
+#business-show-search{
+  background: firebrick;
+}
+
+#show-page-info {
+  list-style: none;
+  display: flex;
+  padding-left: 30vw;
+  background-color: whitesmoke;
+  width: 100%
+}
+
+#show-stars {
+  font-size: 52px;
+}
+
+
+
+.business-show-price-and-tags {
+  font-family: 'Helvetica Neue';
+  display: flex;
+  // padding-left: 2vw;
+  padding-top: 1vh;
+  font-size: 24px;
+}
+
+.business-show-address-and-phone-number {
+  list-style: none;
+  padding-top: 5vh;
+
+  font-family: 'Helvetica Neue';
+
+  padding-right: 60vw;
+
+  font-size: 20px;
+  background-color: whitesmoke;
+  padding-bottom: 5vh;
+}

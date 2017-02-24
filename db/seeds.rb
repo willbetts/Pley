@@ -30,7 +30,7 @@ user_1 = User.create(
   )
 
   tag_3 = Tag.create(
-    name: "steak"
+    name: "burgers"
   )
 
   tag_4 = Tag.create(
@@ -83,6 +83,22 @@ user_1 = User.create(
 
   tag_16 = Tag.create(
     name: "bacon"
+  )
+
+  tag_17 = Tag.create(
+    name: "bowling"
+  )
+
+  tag_18 = Tag.create(
+    name: "BBQ"
+  )
+
+  tag_18 = Tag.create(
+    name: "Go Go Curry"
+  )
+
+  tag_19 = Tag.create(
+    name: "Movies"
   )
 
 business_1 = Business.create(
@@ -196,18 +212,6 @@ business_10 = Business.create(
   pickup_delivery: false
 )
 
-
-business_9 = Business.create(
-  name: "Buttermilk Channel Fried Chicken",
-  business_type: "restaurant",
-  address: "18 Fulton Street, Brooklyn, NY",
-  phone_number: "(718)-387-7400",
-  website:"",
-  hours: {monday: "1-1"},
-  price: "$$",
-  pickup_delivery: false
-)
-
 business_11 = Business.create(
   name: "Al's French Fries",
   business_type: "restaurant",
@@ -296,16 +300,6 @@ business_18 = Business.create(
   pickup_delivery: false
 )
 
-business_19 = Business.create(
-  name: "Pies and Thighs",
-  business_type: "restaurant",
-  address: "141 Broadway, Brooklyn, NY",
-  phone_number: "(718)-387-7400",
-  website:"",
-  hours: {monday: "1-1"},
-  price: "$$",
-  pickup_delivery: false
-)
 
 business_20 = Business.create(
   name: "Creek and the Cave",
@@ -366,17 +360,6 @@ business_25 = Business.create(
   name: "Shanty on the Shore",
   business_type: "restaurant",
   address: "132 West 29th Street, New York, New York",
-  phone_number: "(718)-387-7400",
-  website:"",
-  hours: {monday: "1-1"},
-  price: "$$",
-  pickup_delivery: false
-)
-
-business_26 = Business.create(
-  name: "Go Go Curry",
-  business_type: "restaurant",
-  address: "132 West 19th Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"",
   hours: {monday: "1-1"},
@@ -592,18 +575,202 @@ Tagging.create(
   tag_id: tag_1.id
 )
 
-review_1 = Review.create(
-  title: "So Yummy!",
-  body: "God Damn, that was a good steak",
-  stars: 5,
-  business_id: business_1.id,
-  user_id: user_1.id
+Tagging.create(
+  business_id: business_3.id,
+  tag_id: tag_15.id
 )
 
-review_2 = Review.create(
-  title: "So Yummy!",
-  body: "God Damn, that was a good steak",
-  stars: 5,
-  business_id: business_2.id,
-  user_id: user_1.id
+Tagging.create(
+  business_id: business_4.id,
+  tag_id: tag_16.id
+)
+
+Tagging.create(
+  business_id: business_5.id,
+  tag_id: tag_12.id
+)
+
+Tagging.create(
+  business_id: business_6.id,
+  tag_id: tag_2.id
+)
+
+Tagging.create(
+  business_id: business_7.id,
+  tag_id: tag_2.id
+)
+
+Tagging.create(
+  business_id: business_8.id,
+  tag_id: tag_14.id
+)
+
+Tagging.create(
+  business_id: business_9.id,
+  tag_id: tag_14.id
+)
+
+Tagging.create(
+  business_id: business_10.id,
+  tag_id: tag_14.id
+)
+
+Tagging.create(
+  business_id: business_11.id,
+  tag_id: tag_3.id
+)
+
+Tagging.create(
+  business_id: business_12.id,
+  tag_id: tag_18.id
+)
+
+Tagging.create(
+  business_id: business_13.id,
+  tag_id: tag_9.id
+)
+
+Tagging.create(
+  business_id: business_14.id,
+  tag_id: tag_10.id
+)
+
+Tagging.create(
+  business_id: business_15.id,
+  tag_id: tag_12.id
+)
+
+Tagging.create(
+  business_id: business_16.id,
+  tag_id: tag_2.id
+)
+
+Tagging.create(
+  business_id: business_17.id,
+  tag_id: tag_2.id
+)
+
+Tagging.create(
+  business_id: business_18.id,
+  tag_id: tag_18.id
+)
+
+Tagging.create(
+  business_id: business_20.id,
+  tag_id: tag_13.id
+)
+
+Tagging.create(
+  business_id: business_21.id,
+  tag_id: tag_18.id
+)
+
+Tagging.create(
+  business_id: business_22.id,
+  tag_id: tag_5.id
+)
+
+Tagging.create(
+  business_id: business_23.id,
+  tag_id: tag_6.id
+)
+
+Tagging.create(
+  business_id: business_24.id,
+  tag_id: tag_7.id
+)
+
+Tagging.create(
+  business_id: business_25.id,
+  tag_id: tag_8.id
+)
+
+Tagging.create(
+  business_id: business_27.id,
+  tag_id: tag_11.id
+)
+
+Tagging.create(
+  business_id: business_28.id,
+  tag_id: tag_3.id
+)
+
+Tagging.create(
+  business_id: business_29.id,
+  tag_id: tag_12.id
+)
+
+Tagging.create(
+  business_id: business_30.id,
+  tag_id: tag_9.id
+)
+
+Tagging.create(
+  business_id: business_31.id,
+  tag_id: tag_10.id
+)
+
+Tagging.create(
+  business_id: business_32.id,
+  tag_id: tag_3.id
+)
+
+Tagging.create(
+  business_id: business_33.id,
+  tag_id: tag_1.id
+)
+
+Tagging.create(
+  business_id: business_34.id,
+  tag_id: tag_12.id
+)
+
+Tagging.create(
+  business_id: business_35.id,
+  tag_id: tag_19.id
+)
+
+Tagging.create(
+  business_id: business_36.id,
+  tag_id: tag_2.id
+)
+
+Tagging.create(
+  business_id: business_37.id,
+  tag_id: tag_2.id
+)
+
+Tagging.create(
+  business_id: business_38.id,
+  tag_id: tag_2.id
+)
+
+Tagging.create(
+  business_id: business_39.id,
+  tag_id: tag_2.id
+)
+
+Tagging.create(
+  business_id: business_40.id,
+  tag_id: tag_2.id
+)
+
+Tagging.create(
+  business_id: business_41.id,
+  tag_id: tag_2.id
+)
+
+Tagging.create(
+  business_id: business_42.id,
+  tag_id: tag_2.id
+)
+
+Tagging.create(
+  business_id: business_43.id,
+  tag_id: tag_2.id
+)
+
+Tagging.create(
+  business_id: business_44.id,
+  tag_id: tag_2.id
 )

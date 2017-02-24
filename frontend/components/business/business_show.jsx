@@ -5,6 +5,7 @@ import { Link } from 'react-router';
 import ReviewIndexContainer from '../reviews/review_index_container';
 import ReviewForm from '../reviews/review_form_container';
 import BusinessMap from './business_map';
+import NavLogo from "../nav_logo"
 
 class BusinessShow extends Component {
   constructor(props){
@@ -19,7 +20,7 @@ class BusinessShow extends Component {
   displayStars(){
     const result=[];
       for (let i = 0; i < this.props.business.averageReview; i++){
-        result.push(<li className="fa fa-star" key={i}></li>);
+        result.push(<li className="fa fa-star" id="show-stars" key={i}></li>);
       }
       return result;
   }
@@ -33,33 +34,36 @@ class BusinessShow extends Component {
   render() {
     return (
       <div>
-        <div className="search-header-results-container">
+        <div id="business-show-search" className="search-header-results-container">
+          <div className="logo-wrapper">
+            <NavLogo/>
+          </div>
           <ul>
             <BusinessSearch/>
             <BusinessHeader/>
           </ul>
-          <div className="business-info" id="show-page-info" key={this.props.business.id}>
-            <div>
-              <img src={this.props.business.imageUrl}/>
-            </div>
-            <div>
-                <li className="business-name">
-                  {this.props.business.name}
-                </li>
-                <div className="stars">
-                    {this.displayStars()}
+        <div/>
+          <div id="show-page-info" key={this.props.business.id}>
+
+              <div>
+                  <li className="business-name-show">
+                    {this.props.business.name}
+                  </li>
+                  <div className="show-stars">
+                      {this.displayStars()}
+                  </div>
+                <div className="business-show-price-and-tags">
+                  <li>{this.props.business.price}</li>
+                  <li id="business-tags">{this.props.business.tags}</li>
                 </div>
-              <div className="business-price-and-tags">
-                <li>{this.props.business.price}</li>
-                <li id="business-tags">{this.props.business.tags}</li>
+                <div className="business-show-address-and-phone-number">
+                  <li>{this.props.business.address}</li>
+                  <li>{this.props.business.phoneNumber}</li>
+                </div>
               </div>
-            </div>
-            <div className="business-address-and-phone-number">
-              <li>{this.props.business.address}</li>
-              <li>{this.props.business.phoneNumber}</li>
-            </div>
+
           </div>
-          <BusinessMap/>
+
         </div>
         <div className="business-reviews">
           {this.renderForm()}
