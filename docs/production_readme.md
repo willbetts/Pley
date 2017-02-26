@@ -1,4 +1,5 @@
-Pley live.  
+[Pley Live][Pley]
+* [Pley]: https://www.pley.today/#/ 
 
 Pley is a full-stack web application inspired by Yelp.  It utilizes Ruby on Rails on the backend, a PostgreSQL database, and React.js with a Redux architectural framework on the frontend.
 
@@ -27,4 +28,4 @@ Maps are a standard feature of Yelp.  I plan on utilizing the google maps api so
 
 Filters
 
-I plan on utilizing filters to filter out the results by price as well as sorting them by highest review, closest, etc. 
+I plan on utilizing filters to filter out the results by price as well as sorting them by highest review, closest, etc.
