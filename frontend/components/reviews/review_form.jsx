@@ -6,20 +6,26 @@ class ReviewForm extends React.Component {
     this.state = {
       title: "",
       body: "",
-      stars: 1
+      stars: 1,
+      business_photo: null,
+      business_photo_url: ""
     };
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.updateFile = this.updateFile.bind(this);
   }
 
   handleSubmit(e) {
     e.preventDefault();
-    const newReview = {
-      title: this.state.title,
-      body: this.state.body,
-      stars: this.state.stars,
-      business_id: this.props.business.id
-    };
-    this.props.createReview(this.props.business.id, newReview);
+    let formData = new FormData();
+    formData.append("review[title]", this.state.title);
+    formData.append("review[body]", this.state.body);
+    formData.append("review[stars]", this.state.stars);
+    formData.append("review[business_id]", this.props.business.id);
+
+    if (this.state.business_photo) {
+      formData.append("review[business_photo]", this.state.business_photo);
+    }
+    this.props.createReview(this.props.business.id, formData);
   }
 
   update(property) {
@@ -28,6 +34,19 @@ class ReviewForm extends React.Component {
 
   selectStar(num){
     this.setState({stars: num});
+  }
+
+  updateFile(e) {
+    let file = e.currentTarget.files[0];
+    let fileReader = new FileReader();
+
+    fileReader.onloadend = function () {
+      this.setState({ business_photo: file, business_photo_url: fileReader.result });
+
+    }.bind(this);
+    if (file) {
+      fileReader.readAsDataURL(file);
+    }
   }
 
   render(){
@@ -56,6 +75,8 @@ class ReviewForm extends React.Component {
             value={this.state.body}
             onChange={this.update('body')}
             ></textarea>
+        <input type="file" onChange={this.updateFile}/>
+        <img src = {this.state.imageUrl}/>
         </div>
       </form>
     </div>

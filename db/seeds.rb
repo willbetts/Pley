@@ -94,11 +94,15 @@ user_1 = User.create(
   )
 
   tag_18 = Tag.create(
-    name: "Go Go Curry"
+    name: "curry"
   )
 
   tag_19 = Tag.create(
-    name: "Movies"
+    name: "movies"
+  )
+
+  tag_20 = Tag.create(
+    name: "tacos"
   )
 
 business_1 = Business.create(
@@ -129,7 +133,7 @@ business_3 = Business.create(
   business_type: "restaurant",
   address: "159 West 25th street, New York, New York, 10001",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$",
   pickup_delivery: false
@@ -140,7 +144,7 @@ business_4 = Business.create(
   business_type: "restaurant",
   address: "72 Scholes Street, Brooklyn, NY 11211",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -151,7 +155,7 @@ business_5 = Business.create(
   business_type: "coffee shop",
   address: "92 Scholes Street, Brooklyn, NY 11211",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$",
   pickup_delivery: false
@@ -162,7 +166,7 @@ business_6 = Business.create(
   business_type: "bar",
   address: "19 21st street, New York, New York, 10001",
   phone_number: "(718)-387-7400",
-  website: "",
+  website: "https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -173,7 +177,7 @@ business_7 = Business.create(
   business_type: "bar",
   address: "19 Putnam Avenue, Brooklyn, NY",
   phone_number: "(718)-387-7400",
-  website: "",
+  website: "https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$",
   pickup_delivery: false
@@ -184,7 +188,7 @@ business_8 = Business.create(
   business_type: "restaurant",
   address: "119 Broadway, Brooklyn, NY",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -195,7 +199,7 @@ business_9 = Business.create(
   business_type: "restaurant",
   address: "18 Fulton Street, Brooklyn, NY",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -206,7 +210,7 @@ business_10 = Business.create(
   business_type: "restaurant",
   address: "132 South 3rd street, Brooklyn, NY",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -217,7 +221,7 @@ business_11 = Business.create(
   business_type: "restaurant",
   address: "11 Lorimer Street, Brooklyn, NY",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$",
   pickup_delivery: false
@@ -228,7 +232,7 @@ business_12 = Business.create(
   business_type: "restaurant",
   address: "60 Scholes Street, Brooklyn, NY",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$$$",
   pickup_delivery: false
@@ -239,7 +243,7 @@ business_13 = Business.create(
   business_type: "restaurant",
   address: "18 Fulton Street, Brooklyn, NY",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -250,7 +254,7 @@ business_14 = Business.create(
   business_type: "restaurant",
   address: "141 Broadway, Brooklyn, NY",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -261,7 +265,7 @@ business_15 = Business.create(
   business_type: "coffee shop",
   address: "72 Montrose Ave, Brooklyn, NY",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -272,7 +276,7 @@ business_16 = Business.create(
   business_type: "bar",
   address: "141 Broadway, Brooklyn, NY",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -283,7 +287,7 @@ business_17 = Business.create(
   business_type: "bar",
   address: "91 Berry St, Brooklyn, NY",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -294,7 +298,7 @@ business_18 = Business.create(
   business_type: "restaurant",
   address: "41 Leonard Street, Brooklyn, NY",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -306,7 +310,7 @@ business_20 = Business.create(
   business_type: "comedy club",
   address: "19 Jackson Ave, Queens, NY",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -317,7 +321,7 @@ business_21 = Business.create(
   business_type: "restaurant",
   address: "132 West 19th Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -328,7 +332,7 @@ business_22 = Business.create(
   business_type: "restaurant",
   address: "132 West 27th Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://github.com/willbetts",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -339,7 +343,7 @@ business_23 = Business.create(
   business_type: "restaurant",
   address: "132 West 28th Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -350,7 +354,7 @@ business_24 = Business.create(
   business_type: "restaurant",
   address: "132 Union Ave, Brooklyn, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -361,7 +365,7 @@ business_25 = Business.create(
   business_type: "restaurant",
   address: "132 West 29th Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -372,7 +376,7 @@ business_27 = Business.create(
   business_type: "restaurant",
   address: "132 West 30th, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -383,7 +387,7 @@ business_28 = Business.create(
   business_type: "restaurant",
   address: "132 West 31st Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -394,7 +398,7 @@ business_29 = Business.create(
   business_type: "coffee",
   address: "132 West 32nd Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -405,7 +409,7 @@ business_30 = Business.create(
   business_type: "restaurant",
   address: "132 West 33rd Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -416,7 +420,7 @@ business_31 = Business.create(
   business_type: "restaurant",
   address: "132 West 34th Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -427,7 +431,7 @@ business_32 = Business.create(
   business_type: "restaurant",
   address: "132 West 35th Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -438,7 +442,7 @@ business_33 = Business.create(
   business_type: "restaurant",
   address: "132 West 36th Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -449,7 +453,7 @@ business_34 = Business.create(
   business_type: "coffee shop",
   address: "130 Atlantic Ave, Brooklyn, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -460,7 +464,7 @@ business_35 = Business.create(
   business_type: "movie theatre",
   address: "132 West 37th Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -471,7 +475,7 @@ business_36 = Business.create(
   business_type: "bar",
   address: "132 West 38th Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -482,7 +486,7 @@ business_37 = Business.create(
   business_type: "bar",
   address: "132 West 39th Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -493,7 +497,7 @@ business_38 = Business.create(
   business_type: "bar",
   address: "132 West 40th Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -504,7 +508,7 @@ business_39 = Business.create(
   business_type: "bar",
   address: "132 West 41th street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -515,7 +519,7 @@ business_40 = Business.create(
   business_type: "bar",
   address: "132 West 42nd Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -526,7 +530,7 @@ business_41 = Business.create(
   business_type: "bar",
   address: "132 West 43rd Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -537,7 +541,7 @@ business_42 = Business.create(
   business_type: "bar",
   address: "132 West 44th , New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -548,18 +552,18 @@ business_43 = Business.create(
   business_type: "brewery",
   address: "132 West 45th Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
 )
 
 business_44 = Business.create(
-  name: "Lost Naton",
+  name: "Lost Nation",
   business_type: "restaurant",
   address: "132 West 46th Street, New York, New York",
   phone_number: "(718)-387-7400",
-  website:"",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1"},
   price: "$$",
   pickup_delivery: false
@@ -707,7 +711,7 @@ Tagging.create(
 
 Tagging.create(
   business_id: business_31.id,
-  tag_id: tag_10.id
+  tag_id: tag_20.id
 )
 
 Tagging.create(
