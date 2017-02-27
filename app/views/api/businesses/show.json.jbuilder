@@ -1,6 +1,6 @@
   json.id @business.id
   json.name @business.name
-  json.imageUrl asset_path(@business.image.url)
+  json.imageUrl asset_path(@business.photo.url)
   json.address @business.address
   json.phoneNumber @business.phone_number
   json.website @business.website
