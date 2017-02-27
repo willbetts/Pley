@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 import ReviewIndexContainer from '../reviews/review_index_container';
 import ReviewForm from '../reviews/review_form_container';
 import BusinessMap from './business_map';
-import NavLogo from "../nav_logo"
+import NavLogo from "../nav_logo";
 
 class BusinessShow extends Component {
   constructor(props){
@@ -17,6 +17,7 @@ class BusinessShow extends Component {
     this.props.fetchBusiness(this.props.params.id);
   }
 
+
   displayStars(){
     const result=[];
       for (let i = 0; i < this.props.business.averageReview; i++){
@@ -26,8 +27,11 @@ class BusinessShow extends Component {
   }
 
   renderForm(){
-    if (!this.props.business.reviewed) {
+    // debugger
+    if (!this.props.business.reviewed && this.props.currentUser) {
       return <ReviewForm/>;
+    } else if (!this.props.business.currentUser) {
+        return <Link to="/login" className="log-in-to-review">Want to write a review? Log in!</Link>;
     }
   }
 

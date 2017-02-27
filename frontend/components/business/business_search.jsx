@@ -5,7 +5,7 @@ import { withRouter } from 'react-router';
 class BusinessSearch extends React.Component {
   constructor(props){
     super(props);
-    this.state = {query: ""}
+    this.state = {query: ""};
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
@@ -30,6 +30,9 @@ class BusinessSearch extends React.Component {
             value={this.state.query}
             onChange={(e) => this.setState({query: e.currentTarget.value })}
             id="search-form-input"/>
+          <div className="magnifiying-glass-container">
+            <button className="magnifiying-glass"><i className="fa fa-search fa" aria-hidden="true" ></i></button>
+          </div>
           </div>
         </form>
       </div>
