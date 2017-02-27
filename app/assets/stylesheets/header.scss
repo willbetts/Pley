@@ -16,6 +16,10 @@
 .log-out-button {
   display: flex;
   justify-content: flex-end;
+  padding-right: 250px;
+  padding-top: 40px;
+  z-index: 100;
+  color: white;
 }
 
 .log-out-button button {
@@ -26,6 +30,14 @@
   padding: 8px 30px;
   font-family:'Helvetica Neue';
   font-weight: bold;
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: white;
+}
+
+.log-out-button button:hover {
+  cursor: pointer;
 }
 
 #logout {

@@ -1,3 +1,15 @@
+a.log-in-to-review {
+  padding-left: 30%;
+  padding-right: 30%;
+  // padding-top: 10%;
+  font-family:'Helvetica Neue';
+  font-size: 22px;
+}
+
+.business-reviews{
+  margin-top: 3%;
+}
+
 .fa-star {
   color: firebrick;
   padding-right: 3px;
@@ -28,7 +40,7 @@
 
 .review-container {
   display: flex;
-  padding-top: 40px;
+  padding-top: 70px;
   // margin-right: 20%;
   // width: 60%;
 }
@@ -106,6 +118,9 @@
 //   border-style: none;
 //   // background: grey;
 // }
+#submit-update-review-button {
+  height: 90px;
+}
 
 .body-input {
   height: 150px;
