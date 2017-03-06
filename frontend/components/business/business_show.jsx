@@ -37,7 +37,7 @@ class BusinessShow extends Component {
 
   render() {
     return (
-      <div>
+      <div className="show-page">
         <div id="business-show-search" className="search-header-results-container">
           <div className="logo-wrapper">
             <NavLogo/>
@@ -66,6 +66,9 @@ class BusinessShow extends Component {
                 </div>
               </div>
 
+              <div className="business-review-photos">
+                <li><img src={this.props.business.review_photos}/></li>
+              </div>
           </div>
 
         </div>
