@@ -27,17 +27,13 @@
   margin-top: 1vh;
 }
 
-#search-form {
-  // margin: 0 auto;
-  // display: block;
-}
+
 
 #business-search {
   position: fixed;
 }
 
 .nav-logo-container {
-
 }
 
 .magnifying-glass-container {
@@ -55,7 +51,6 @@
 }
 
 button#business-logout{
-  // margin-bottom: 20px;
   text-align: center;
   margin-left: 140px;
   font-family:'Helvetica Neue';
@@ -74,7 +69,6 @@ button#business-logout:hover {
 
 
 ul.business-login-buttons {
-
   margin-left: 120px;
 }
 
@@ -97,13 +91,8 @@ a.business-hdrbtn {
 .business-info{
   display: flex;
   margin: 0 25% 10% 25%;
-
   list-style: none;
   font-family: 'Helvetica Neue';
-  // border-bottom-style: solid;
-  // // border-bottom-color: orange;
-  // border-width: 1px;
-
 }
 
 .search-form-container {
@@ -135,12 +124,6 @@ a.business-hdrbtn {
   padding-left: 1vw;
 }
 
-
-
-.business-reviews {
-  // padding-top: 500px;
-}
-
 .show-page {
   display: flex;
   flex-direction: column;
@@ -149,4 +132,9 @@ a.business-hdrbtn {
 .show-page-info {
   display: flex;
   flex-direction: row;
+}
+
+.index-map {
+  height: 300px;
+  width: 300px;
 }

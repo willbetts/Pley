@@ -3,6 +3,7 @@ import {Link, withRouter } from 'react-router';
 import BusinessSearch from './business_search';
 import BusinessHeader from './business_header_container';
 import NavLogo from '../nav_logo';
+import IndexMap from './index_map';
 
 
 class BusinessSearchResults extends React.Component {
@@ -33,6 +34,14 @@ class BusinessSearchResults extends React.Component {
         result.push(<li className="fa fa-star" key={i}></li>);
       }
       return result;
+  }
+
+  businessMarkers(){
+    let markers = [];
+    this.props.businesses.forEach((business) => {
+      markers.push([business.latitude, business.longitude]);
+    });
+    return markers;
   }
 
   displayBusinesses() {
@@ -77,6 +86,7 @@ class BusinessSearchResults extends React.Component {
           </ul>
         </header>
         <div className = "business-info-container">
+          <IndexMap businessMarkers={this.businessMarkers()} />
           {this.displayBusinesses()}
         </div>
       </div>
