@@ -3,6 +3,8 @@ json.array! @businesses do |business|
   json.name business.name
   json.imageUrl asset_path(business.photo.url)
   json.address business.address
+  json.latitude business.latitude
+  json.longitude business.longitude
   json.phoneNumber business.phone_number
   json.website business.website
   json.hours business.hours
