@@ -101,6 +101,9 @@ a.business-hdrbtn {
 
 .business-info-container {
   padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .business-name{
@@ -137,4 +140,8 @@ a.business-hdrbtn {
 .index-map {
   height: 300px;
   width: 300px;
+}
+
+.index-stars {
+  margin-left:25px;
 }

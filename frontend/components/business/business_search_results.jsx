@@ -57,7 +57,7 @@ class BusinessSearchResults extends React.Component {
               {business.name}
             </Link>
           </li>
-          <div className="stars">
+          <div className="index-stars">
               {this.displayStars(business)}
           </div>
           <div className="business-price-and-tags">
@@ -86,8 +86,8 @@ class BusinessSearchResults extends React.Component {
           </ul>
         </header>
         <div className = "business-info-container">
+          <div>{this.displayBusinesses()}</div>
           <IndexMap businessMarkers={this.businessMarkers()} />
-          {this.displayBusinesses()}
         </div>
       </div>
     );
