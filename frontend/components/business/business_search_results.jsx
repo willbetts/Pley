@@ -30,7 +30,7 @@ class BusinessSearchResults extends React.Component {
   displayStars(business){
     const result=[];
       for (let i = 0; i < business.averageReview; i++){
-        result.push(<li className="fa fa-star"></li>);
+        result.push(<li className="fa fa-star" key={i}></li>);
       }
       return result;
   }

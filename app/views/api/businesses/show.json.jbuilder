@@ -6,6 +6,8 @@
   json.website @business.website
   json.hours @business.hours
   json.price @business.price
+  json.latitude @business.latitude
+  json.longitude @business.longitude
   json.pickupDelivery @business.pickup_delivery
   tags = @business.tags.map {|tag| tag.name}
   json.tags tags

@@ -24,6 +24,7 @@
 .nav-logo {
   width: 100%;
   margin-left: 6vw;
+  margin-top: 1vh;
 }
 
 #search-form {
@@ -36,7 +37,7 @@
 }
 
 .nav-logo-container {
-  // display: flex;
+
 }
 
 .magnifying-glass-container {
@@ -49,14 +50,14 @@
   color: white;
   border: none;
   font-size: 16px;
-  width: 100%;
-  height: 100%;
+  width: 120%;
+  height: 120%;
 }
 
 button#business-logout{
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
   text-align: center;
-  margin-left: 10px;
+  margin-left: 140px;
   font-family:'Helvetica Neue';
   font-weight: bold;
   background: firebrick;
@@ -73,7 +74,8 @@ button#business-logout:hover {
 
 
 ul.business-login-buttons {
-  margin-bottom: 20px;
+
+  margin-left: 120px;
 }
 
 a.business-hdrbtn {
@@ -133,15 +135,18 @@ a.business-hdrbtn {
   padding-left: 1vw;
 }
 
-#show-page-info {
-  padding-top: 200px;
-}
+
 
 .business-reviews {
-  padding-top: 500px;
+  // padding-top: 500px;
 }
 
 .show-page {
   display: flex;
   flex-direction: column;
+}
+
+.show-page-info {
+  display: flex;
+  flex-direction: row;
 }

@@ -4,7 +4,7 @@ import BusinessHeader from './business_header_container';
 import { Link } from 'react-router';
 import ReviewIndexContainer from '../reviews/review_index_container';
 import ReviewForm from '../reviews/review_form_container';
-import BusinessMap from './business_map';
+import BusinessMap from './map';
 import NavLogo from "../nav_logo";
 
 class BusinessShow extends Component {
@@ -27,11 +27,17 @@ class BusinessShow extends Component {
   }
 
   renderForm(){
-    // debugger
     if (!this.props.business.reviewed && this.props.currentUser) {
       return <ReviewForm/>;
-    } else if (!this.props.business.currentUser) {
+    } else if (!this.props.currentUser) {
         return <Link to="/login" className="log-in-to-review">Want to write a review? Log in!</Link>;
+    }
+  }
+
+  displayReviewPhotos(){
+    if (this.props.business.review_photos) {
+      return this.props.business.review_photos.reverse().slice(0,3).map((photo) => (
+        <img className="image" src={photo} id={photo} />));
     }
   }
 
@@ -46,20 +52,24 @@ class BusinessShow extends Component {
             <BusinessSearch/>
             <BusinessHeader/>
           </ul>
-        <div/>
-          <div id="show-page-info" key={this.props.business.id}>
+        </div>
 
-              <div>
-                  <li className="business-name-show">
-                    {this.props.business.name}
-                  </li>
-                  <div className="show-stars">
-                      {this.displayStars()}
-                  </div>
+          <div id="show-page-info" key={this.props.business.id}>
+            <div className="show-title">
+              <div className="business-review-text">
+                <li className="business-name-show">
+                  {this.props.business.name}
+                </li>
+                <div className="show-stars">
+                    {this.displayStars()}
+                </div>
                 <div className="business-show-price-and-tags">
                   <li>{this.props.business.price}</li>
                   <li id="business-tags">{this.props.business.tags}</li>
                 </div>
+                <BusinessMap
+                  lat={this.props.business.latitude}
+                  lng={this.props.business.longitude}/>
                 <div className="business-show-address-and-phone-number">
                   <li>{this.props.business.address}</li>
                   <li>{this.props.business.phoneNumber}</li>
@@ -67,11 +77,11 @@ class BusinessShow extends Component {
               </div>
 
               <div className="business-review-photos">
-                <li><img src={this.props.business.review_photos}/></li>
+                {this.displayReviewPhotos()}
               </div>
+            </div>
           </div>
 
-        </div>
         <div className="business-reviews">
           {this.renderForm()}
           <ReviewIndexContainer reviews={this.props.business.reviews} />

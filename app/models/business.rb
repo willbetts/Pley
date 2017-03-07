@@ -22,6 +22,9 @@ class Business < ActiveRecord::Base
   has_attached_file :photo,  default_url: "steak.jpg"
   validates_attachment_content_type :photo, content_type: /\Aimage\/.*\z/
 
+  geocoded_by :address
+  after_validation :geocode
+
   def self.search(query)
     Business
       .left_joins(:tags)
