@@ -21,6 +21,34 @@ user_1 = User.create(
   session_token: "1111111111111111"
   )
 
+user_2 = User.create(
+  first_name: "jeff",
+  last_name: "wu",
+  email: "jwu@gmail.com",
+  password: "starwars",
+  birthday: "01/27/93",
+  session_token: "1111111111111112"
+  )
+
+  user_3 = User.create(
+    first_name: "j",
+    last_name: "hao",
+    email: "jhao@gmail.com",
+    password: "starwars",
+    birthday: "01/27/93",
+    session_token: "1111111111111113"
+    )
+
+  user_4 = User.create(
+    first_name: "bob",
+    last_name: "smith",
+    email: "bsmith@gmail.com",
+    password: "starwars",
+    birthday: "01/27/93",
+    session_token: "1111111111111114"
+    )
+
+
   tag_1 = Tag.create(
     name: "steak"
   )
@@ -777,4 +805,13 @@ Tagging.create(
 Tagging.create(
   business_id: business_44.id,
   tag_id: tag_2.id
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_1.id,
+  user_id: user_2.id,
+  business_photo: `250steak.jpg`
 )
