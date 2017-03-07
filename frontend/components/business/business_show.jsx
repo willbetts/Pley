@@ -35,10 +35,22 @@ class BusinessShow extends Component {
   }
 
   displayReviewPhotos(){
-    if (this.props.business.review_photos) {
-      return this.props.business.review_photos.reverse().slice(0,3).map((photo) => (
-        <img className="image" src={photo} id={photo} />));
+    let rendered_photos = [];
+    if (this.props.business.review_photos){
+      const photos = this.props.business.review_photos.reverse();
+      for (let i = 0; i < photos.length; i++) {
+        let photo = photos[i];
+        if (photo !== "") {
+          rendered_photos.push(photo);
+        }
+        if (rendered_photos.length === 3) {
+          break;
+        }
+      }
     }
+    return rendered_photos.map ((photo) => (
+        <img className="image" src={photo} id={photo} />)
+    );
   }
 
   render() {

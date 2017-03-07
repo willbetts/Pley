@@ -24,20 +24,15 @@
 .business-show-price-and-tags {
   font-family: 'Helvetica Neue';
   display: flex;
-  // padding-left: 2vw;
   padding-top: 1vh;
   font-size: 24px;
 }
 
 .business-show-address-and-phone-number {
   list-style: none;
-  // margin-left: 80px;
   font-family: 'Helvetica Neue';
-
-
   font-size: 20px;
   background-color: whitesmoke;
-  // padding-bottom: 5vh;
 }
 
 .show-title{
@@ -53,15 +48,13 @@
 }
 
 .business-review-photos {
-  margin-top: 1vh;
-  // margin-left: 80px;
-  // margin-bottom: 50px;
+  margin-top: 3vh;
   display: flex;
   flex-direction: row;
 }
 
 .image:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .image {

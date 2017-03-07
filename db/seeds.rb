@@ -813,5 +813,5 @@ Review.create(
   stars: 5,
   business_id: business_1.id,
   user_id: user_2.id,
-  business_photo: `250steak.jpg`
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
 )
