@@ -13,6 +13,6 @@
   json.tags tags
   json.reviews @business.reviews
   json.reviewed @business.reviewed?(current_user)
-  json.review_photos @business.reviews.map {|review| review.business_photo}
+  json.review_photos @business.reviews.map {|review| asset_path(review.business_photo)}
 
   json.averageReview @business.average_review
