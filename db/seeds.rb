@@ -815,3 +815,1128 @@ Review.create(
   user_id: user_2.id,
   business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
 )
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_1.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_1.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_2.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_2.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_2.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_3.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_3.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_3.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_4.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_4.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_4.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_5.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_5.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_5.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_6.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_6.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_6.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_7.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_7.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_7.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_8.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_8.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_8.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_9.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_9.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_9.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_10.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_10.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_10.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_11.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_11.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_11.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_12.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_12.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_12.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_13.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_13.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_13.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_14.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_14.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_14.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_15.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_15.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_15.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_16.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_16.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_16.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_17.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_17.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_17.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_18.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_18.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_18.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_20.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_20.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_20.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_21.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_21.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_21.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_22.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_22.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_22.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_23.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_23.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_23.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_24.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_24.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_24.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_25.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_25.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_25.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_27.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_27.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_27.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_28.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_28.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_28.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_29.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_29.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_29.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_30.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_30.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_30.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_31.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_31.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_31.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_32.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_32.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_32.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_33.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_33.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_33.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_34.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_34.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_34.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_35.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_35.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_35.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_36.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_36.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_36.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_37.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_37.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_37.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_38.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_38.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_38.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_39.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_39.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_39.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_40.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_40.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_40.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_41.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_41.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_41.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_42.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_42.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_42.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_43.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_43.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_43.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "yum",
+  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  stars: 5,
+  business_id: business_44.id,
+  user_id: user_2.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/250steak.jpg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "terrible smell.  bad experience",
+  stars: 1,
+  business_id: business_44.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "solid, that's it.",
+  stars: 4,
+  business_id: business_44.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
