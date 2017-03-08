@@ -1455,6 +1455,7 @@ Review.create(
   business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
 )
 
+
 Review.create(
   title: "yum",
   body:  "really good! waitstaff was exceptional.  food tasted great.",
