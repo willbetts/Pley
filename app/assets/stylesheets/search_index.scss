@@ -27,7 +27,16 @@
   margin-top: 1vh;
 }
 
+.no-results {
+  font-family:'Helvetica Neue';
+  list-style: none;
+  margin-left: 30vw;
+  margin-right: 2vw;
+}
 
+#no-result-query {
+  font-weight: bold;
+}
 
 #business-search {
   position: fixed;
