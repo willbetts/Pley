@@ -8,12 +8,17 @@ import IndexMap from './index_map';
 
 class BusinessSearchResults extends React.Component {
 
+  constructor(props){
+    super(props);
+    this.state = {businesses: this.props.businesses};
+  }
 
   componentWillReceiveProps(newProps){
     const query = this.props.router.location.query.query;
     if (query !== this.prevQuery) {
       newProps.fetchBusinesses(query);
     }
+    this.setState({businesses: newProps.businesses});
     this.prevQuery = query;
   }
 
@@ -38,13 +43,21 @@ class BusinessSearchResults extends React.Component {
 
   businessMarkers(){
     let markers = [];
-    this.props.businesses.forEach((business) => {
+    this.state.businesses.forEach((business) => {
       markers.push([business.latitude, business.longitude]);
     });
     return markers;
   }
 
   displayBusinesses() {
+    if (this.props.businesses.length === 0) {
+      return <div className="no-results">
+        <li id="no-result-query">No results for '{this.props.router.location.query.query}'</li>
+        <li>Suggestions for improving the results:</li>
+        <li>Check the spelling or try alternate spellings.</li>
+        <li>Try a more general search. e.g. "pizza" instead of "pepperoni"</li>
+        </div>;
+    } else {
     return this.props.businesses.map( (business) =>
       <div className="business-info" key={business.id}>
         <div>
@@ -71,6 +84,7 @@ class BusinessSearchResults extends React.Component {
         </div>
       </div>
     );
+    }
   }
 
   render() {
