@@ -13,7 +13,7 @@ const Welcome = (props) => (
       <Logo/>
     </div>
     <div id="welcome-search-container">
-      <BusinessSearch/>
+      <BusinessSearch className="welcome-search"/>
     </div>
   </div>
 );

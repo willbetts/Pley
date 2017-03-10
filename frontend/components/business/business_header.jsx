@@ -10,7 +10,8 @@ const BusinessHeader = (props) => {
     );
   } else {
       return(
-          <ul className="business-login-buttons">
+
+          <div className="business-login-buttons">
             <Link className="business-hdrbtn" onClick={props.resetErrors}  to={"/login"}>Log In</Link>
             <Link className="business-hdrbtn" onClick={props.resetErrors} to={"/signup"}>Sign Up </Link>
             <a className="business-hdrbtn" onClick={() => {
@@ -21,7 +22,7 @@ const BusinessHeader = (props) => {
               }}>
               Guest Log In
             </a>
-          </ul>
+          </div>
     );
   }
 };

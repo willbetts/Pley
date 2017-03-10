@@ -1,24 +1,24 @@
 .search-header-results-container {
   background: firebrick;
   width: 100%;
+  min-width: 900px;
   height: 100px;
   .logo-wrapper {
     float: left;
     width: 100px;
     margin-top: 10px;
   }
+  margin: 0 auto;
 }
 
-.business-login-buttons{
-  margin-left: 10px;
-}
 
-.search-header-results-container > ul {
+.nav-links {
+  width: 66%;
   display: flex;
   align-items: center;
   height: 100%;
   float: right;
-  margin-right: 19.5%;
+  margin-right: 8%;
 }
 
 .nav-logo {
@@ -76,11 +76,6 @@ button#business-logout:hover {
 }
 
 
-
-ul.business-login-buttons {
-  margin-left: 120px;
-}
-
 a.business-hdrbtn {
   margin-left: 10px;
   font-family:'Helvetica Neue';
@@ -113,6 +108,7 @@ a.business-hdrbtn {
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin: 0 auto;
 }
 
 .business-name{
@@ -149,6 +145,7 @@ a.business-hdrbtn {
 .index-map {
   height: 300px;
   width: 300px;
+  float: right;
 }
 
 .index-stars {

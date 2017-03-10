@@ -56,15 +56,15 @@ class BusinessShow extends Component {
   render() {
     return (
       <div className="show-page">
-        <div id="business-show-search" className="search-header-results-container">
+        <header className="search-header-results-container">
           <div className="logo-wrapper">
-            <NavLogo/>
+            <NavLogo className= "nav-logo-container"/>
           </div>
-          <ul>
+          <ul className="nav-links">
             <BusinessSearch/>
             <BusinessHeader/>
           </ul>
-        </div>
+        </header>
 
           <div id="show-page-info" key={this.props.business.id}>
             <div className="show-title">

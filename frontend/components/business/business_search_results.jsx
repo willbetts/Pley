@@ -94,7 +94,7 @@ class BusinessSearchResults extends React.Component {
           <div className="logo-wrapper">
             <NavLogo className="nav-logo-container"/>
           </div>
-          <ul>
+          <ul className="nav-links">
             <BusinessSearch id="business-search" />
             <BusinessHeader/>
           </ul>
