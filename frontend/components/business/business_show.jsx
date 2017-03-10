@@ -49,7 +49,7 @@ class BusinessShow extends Component {
       }
     }
     return rendered_photos.map ((photo) => (
-        <img className="image" src={photo} id={photo} />)
+        <img className="image" src={photo} key={photo} />)
     );
   }
 
