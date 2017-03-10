@@ -101,7 +101,7 @@ class BusinessSearchResults extends React.Component {
         </header>
         <div className = "business-info-container">
           <div>{this.displayBusinesses()}</div>
-          <IndexMap businessMarkers={this.businessMarkers()} />
+          <IndexMap businessMarkers={this.businessMarkers()}/>
         </div>
       </div>
     );

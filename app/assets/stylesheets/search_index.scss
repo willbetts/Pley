@@ -107,8 +107,8 @@ a.business-hdrbtn {
   padding-top: 40px;
   display: flex;
   flex-direction: row;
-  width: 100%;
-  margin: 0 auto;
+  margin-left: 10%;
+  min-width: 1200px;
 }
 
 .business-name{
@@ -145,9 +145,9 @@ a.business-hdrbtn {
 .index-map {
   height: 300px;
   width: 300px;
-  float: right;
+  margin-left: 100px;
 }
 
 .index-stars {
-  margin-left:25px;
+  margin-left:2vw;
 }
