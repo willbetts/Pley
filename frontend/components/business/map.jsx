@@ -15,13 +15,17 @@ import { withRouter } from 'react-router';
 
     constructor(props){
       super(props);
+
+    }
+
+  componentDidMount() {
+    if (this.props.lat) {
       this._mapOptions = {
         center: {lat: this.props.lat, lng: this.props.lng},
         zoom: 13
       };
-    }
 
-  componentDidMount() {
+    }
     const map = this.refs.map;
     this.map = new google.maps.Map(map, this._mapOptions);
     const pos = new google.maps.LatLng(this.props.lat, this.props.lng);
