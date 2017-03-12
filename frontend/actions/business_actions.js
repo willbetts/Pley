@@ -5,7 +5,7 @@ export const RECEIVE_BUSINESS = "RECEIVE_BUSINESS";
 export const LOADING_SEARCH = "LOADING_SEARCH";
 
 export const fetchBusinesses = (query) => dispatch => {
-  // dispatch(loadSearch());
+  dispatch(loadSearch());
   return APIUtil.fetchBusinesses(query)
   .then((query) => dispatch(receiveBusinesses(query)));
 };
@@ -27,6 +27,6 @@ export const receiveBusiness = business => ({
 });
 
 
-// export const loadSearch = () => ({
-//   type: LOADING_SEARCH
-// });
+export const loadSearch = () => ({
+  type: LOADING_SEARCH
+});

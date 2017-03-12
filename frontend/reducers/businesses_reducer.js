@@ -12,8 +12,8 @@ const BusinessesReducer = (state = [], action) => {
   switch(action.type) {
     case RECEIVE_ALL_BUSINESSES:
       return action.businesses;
-    // case LOADING_SEARCH:
-    //   return Object.assign({}, state, { searchLoading: true });
+    case LOADING_SEARCH:
+      return Object.assign({}, state, { searchLoading: true });
     default:
       return state;
   }

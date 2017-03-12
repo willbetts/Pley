@@ -58,7 +58,6 @@ class BusinessSearchResults extends React.Component {
         <li>Try a more general search. e.g. "pizza" instead of "pepperoni"</li>
         </div>;
     } else {
-      debugger
     return this.props.businesses.map( (business) =>
       <div className="business-info" key={business.id}>
         <div>
@@ -89,6 +88,7 @@ class BusinessSearchResults extends React.Component {
   }
 
   render() {
+    debugger
     return (
       <div id="search-results-container">
         <header className="search-header-results-container">

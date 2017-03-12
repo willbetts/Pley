@@ -21,7 +21,7 @@ class ReviewIndexItem extends React.Component {
 
   handleUpdate(review) {
     if (this.props.currentUser && this.props.currentUser.id === review.user_id){
-      return <button className="review-buttons" id="update-button" onClick={this.toggleForm.bind(this)}>Update Review</button>;
+      return <button className="review-buttons" id="update-button" onClick={this.toggleForm.bind(this)}>{!this.state.formOpen ? "Update Review" : "Cancel"}</button>;
     }
   }
 
