@@ -30,26 +30,28 @@ class SessionForm extends React.Component {
 		if (this.props.formType === "login") {
 			return (
 				<ul>
-					<div id="log-in-to-pley">Log in to Pley</div>
+					<div className="sign-up-for-pley">Log in to Pley
 					<div id="new-to-pley">
 						<label> New to Pley?
-							<Link to="/signup">  Sign Up</Link>
+							<Link to="/signup" className="sign-up-link">  Sign Up</Link>
 						</label>
+					</div>
 					</div>
 				</ul>
 				);
 		} else {
 			return (
-					<div id="sign-up-for-pley">Sign up for Pley</div>
-			)
+					<div className="sign-up-for-pley">Sign up for Pley</div>
+			);
 		}
 	}
 
 	render() {
 
+
 		return (
-      <div>
-        <div className="login-form-container">
+      <div className="session-form">
+        <div>
         {this.navLink()}
         </div>
           {
@@ -57,10 +59,12 @@ class SessionForm extends React.Component {
               <LogInForm processForm={this.props.processForm}
 													receiveErrors={this.props.receiveErrors}
 													resetErrors={this.props.resetErrors}
+													login={this.props.login}
 													errors={this.props.errors}/> :
               <SignUpForm processForm={this.props.processForm}
 													receiveErrors={this.props.receiveErrors}
 													resetErrors={this.props.resetErrors}
+													login={this.props.login}
 													errors={this.props.errors}/>
           }
 

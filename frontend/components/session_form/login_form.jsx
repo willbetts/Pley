@@ -21,7 +21,7 @@ class LogInForm extends React.Component {
 
   renderErrors() {
     return(
-      <ul>
+      <ul className="errors">
         {this.props.errors.map((error, i) => (
           <li key={`error-${i}`}>
             {error}
@@ -59,6 +59,14 @@ class LogInForm extends React.Component {
             <br/>
               <input type="submit" value="Log In" id="auth-form-button"/>
         </form>
+        <a className="form-guest" onClick={() => {
+            this.props.login({
+              email: "guest@guest.com",
+              password: "starwars"
+            });
+          }}>
+          Don't feel like logging in? Continue as a guest
+        </a>
       </div>
     );
   }

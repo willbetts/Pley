@@ -1,3 +1,10 @@
+.session-form {
+  background-image: image-url("venue.jpg");
+  background-size: cover;
+  position: fixed;
+  top: 0; bottom: 0; left: 0; right: 0;
+}
+
 .login-form-container {
   padding-top: 100px;
   padding-left: 400px;
@@ -18,7 +25,12 @@ a{
 }
 
 #new-to-pley {
-  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+.sign-up-link {
+  color: white;
 }
 
 #submit:input{
@@ -34,11 +46,14 @@ a{
 }
 
 
-#sign-up-for-pley{
+.sign-up-for-pley{
   padding-bottom: 20px;
   color: firebrick;
   font-weight: bold;
   font-size: 150%;
+  font-family: 'Helvetica Neue';
+  margin-left: 400px;
+  margin-top: 20px;
 }
 
 .signup-form-container {
@@ -55,4 +70,22 @@ a{
   height: 5vh;
   font-size: 15px;
   font-weight: bold;
+}
+
+.errors {
+  color: firebrick;
+}
+
+.form-guest {
+  color: white;
+  font-weight: bold;
+}
+
+.form-guest:hover {
+  cursor: pointer;
+}
+
+.already-on-pley {
+  font-weight: bold;
+  color: white;
 }

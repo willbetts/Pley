@@ -58,6 +58,7 @@ class BusinessSearchResults extends React.Component {
         <li>Try a more general search. e.g. "pizza" instead of "pepperoni"</li>
         </div>;
     } else {
+      debugger
     return this.props.businesses.map( (business) =>
       <div className="business-info" key={business.id}>
         <div>

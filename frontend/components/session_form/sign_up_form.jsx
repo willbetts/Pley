@@ -22,7 +22,7 @@ import { Link } from 'react-router';
 
     renderErrors() {
       return(
-        <ul>
+        <ul className="errors">
           {this.props.errors.map((error, i) => (
             <li key={`error-${i}`}>
               {error}
@@ -72,13 +72,21 @@ import { Link } from 'react-router';
               <br/>
                 <input type="submit" value="Sign Up" id="auth-form-button" />
               <br/>
-              <div> Already on Pley?
-                <Link to="/login">  Log in</Link>
+              <div className="already-on-pley"> Already on Pley?
+                <Link to="/login" className="already-on-pley">  Log in</Link>
               </div>
             </div>
           </form>
+          <a className="form-guest" onClick={() => {
+              this.props.login({
+                email: "guest@guest.com",
+                password: "starwars"
+              });
+            }}>
+            Don't feel like signing up? Continue as a guest
+          </a>
         </div>
-      )
+      );
     }
 }
 
