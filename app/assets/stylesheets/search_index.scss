@@ -1,3 +1,9 @@
+.load-wheel {
+  background-image: image-url("rolling.svg");
+  background-size: cover;
+  position: fixed;
+}
+
 .search-header-results-container {
   background: firebrick;
   width: 100%;
@@ -30,7 +36,7 @@
 .no-results {
   font-family:'Helvetica Neue';
   list-style: none;
-  margin-left: 30vw;
+  margin-left: 20vw;
   margin-right: 2vw;
 }
 

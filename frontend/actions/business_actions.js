@@ -1,8 +1,8 @@
 import * as APIUtil from '../util/search_api_util';
-
 export const RECEIVE_ALL_BUSINESSES = "RECEIVE_ALL_BUSINESSES";
 export const RECEIVE_BUSINESS = "RECEIVE_BUSINESS";
 export const LOADING_SEARCH = "LOADING_SEARCH";
+export const LOADED_SEARCH = "LOADED_SEARCH";
 
 export const fetchBusinesses = (query) => dispatch => {
   dispatch(loadSearch());
@@ -20,13 +20,15 @@ export const fetchBusiness = (id) => dispatch => {
     .then((business) => dispatch(receiveBusiness(business)));
 };
 
-
 export const receiveBusiness = business => ({
   type: RECEIVE_BUSINESS,
   business
 });
 
-
 export const loadSearch = () => ({
   type: LOADING_SEARCH
 });
+
+// export const loadedSearch = () => ({
+//   type: LOADED_SEARCH
+// });

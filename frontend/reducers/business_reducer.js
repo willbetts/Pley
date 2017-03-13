@@ -1,4 +1,4 @@
-import { RECEIVE_BUSINESS } from '../actions/business_actions';
+import { RECEIVE_BUSINESS, RECEIVE_ALL_BUSINESSES, LOADING_SEARCH, LOADED_SEARCH} from '../actions/business_actions';
 import merge from 'lodash/merge';
 import { REMOVE_REVIEW, RECEIVE_REVIEW } from '../actions/review_actions';
 
@@ -25,7 +25,11 @@ const BusinessesReducer = (state = {}, action) => {
       return newState;
     default:
       return state;
-  }
-};
+      }
+  };
 
 export default BusinessesReducer;
+// case LOADING_SEARCH:
+// return Object.assign({}, state, { searchLoading: true });
+// case LOADED_SEARCH:
+//   return Object.assign({}, state, { searchLoading: false });

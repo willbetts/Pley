@@ -1,17 +1,19 @@
 import { connect } from 'react-redux';
-import { fetchBusinesses } from '../../actions/business_actions';
+import { fetchBusinesses, loadedSearch, loadSearch } from '../../actions/business_actions';
 import BusinessSearchResults from './business_search_results';
 
-const mapStateToProps = ({ businesses }, state) => {
-  debugger
+const mapStateToProps = (state) => {
 
   return {
-
-  businesses: businesses
-}};
+    businesses: state.businesses,
+    loading: state.loading
+  };
+};
 
 const mapDispatchToProps = (dispatch) => ({
-  fetchBusinesses: (query) => dispatch(fetchBusinesses(query))
+  loadSearch: () => dispatch(loadSearch()),
+  fetchBusinesses: (query) => dispatch(fetchBusinesses(query)),
+  loadedSearch: () => dispatch(loadedSearch())
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(BusinessSearchResults);

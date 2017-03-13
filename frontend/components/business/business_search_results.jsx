@@ -14,6 +14,7 @@ class BusinessSearchResults extends React.Component {
   }
 
   componentWillReceiveProps(newProps){
+    // newProps.loadSearch();
     const query = this.props.router.location.query.query;
     if (query !== this.prevQuery) {
       newProps.fetchBusinesses(query);
@@ -23,6 +24,8 @@ class BusinessSearchResults extends React.Component {
   }
 
   componentDidMount() {
+    // this.props.loadSearch();
+
     const query = this.props.router.location.query.query;
     this.props.fetchBusinesses(query);
   }
@@ -49,7 +52,15 @@ class BusinessSearchResults extends React.Component {
     return markers;
   }
 
+  // componentWillMount(){
+  //   if (this.props.loading){
+  //     this.props.loadedSearch();
+  //   }
+  // }
+
   displayBusinesses() {
+
+
     if (this.props.businesses.length === 0) {
       return <div className="no-results">
         <li id="no-result-query">No results for '{this.props.router.location.query.query}'</li>
@@ -88,9 +99,11 @@ class BusinessSearchResults extends React.Component {
   }
 
   render() {
-    debugger
+
+
     return (
       <div id="search-results-container">
+
         <header className="search-header-results-container">
           <div className="logo-wrapper">
             <NavLogo className="nav-logo-container"/>
