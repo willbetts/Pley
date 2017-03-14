@@ -28,7 +28,3 @@ export const receiveBusiness = business => ({
 export const loadSearch = () => ({
   type: LOADING_SEARCH
 });
-
-// export const loadedSearch = () => ({
-//   type: LOADED_SEARCH
-// });

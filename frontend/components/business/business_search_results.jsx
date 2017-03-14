@@ -14,7 +14,6 @@ class BusinessSearchResults extends React.Component {
   }
 
   componentWillReceiveProps(newProps){
-    // newProps.loadSearch();
     const query = this.props.router.location.query.query;
     if (query !== this.prevQuery) {
       newProps.fetchBusinesses(query);
@@ -24,8 +23,6 @@ class BusinessSearchResults extends React.Component {
   }
 
   componentDidMount() {
-    // this.props.loadSearch();
-
     const query = this.props.router.location.query.query;
     this.props.fetchBusinesses(query);
   }
@@ -52,12 +49,6 @@ class BusinessSearchResults extends React.Component {
     return markers;
   }
 
-  // componentWillMount(){
-  //   if (this.props.loading){
-  //     this.props.loadedSearch();
-  //   }
-  // }
-
   displayBusinesses() {
 
 
@@ -68,7 +59,7 @@ class BusinessSearchResults extends React.Component {
         <li>Check the spelling or try alternate spellings.</li>
         <li>Try a more general search. e.g. "pizza" instead of "pepperoni"</li>
         </div>;
-    } else {
+    } if (this.props.businesses.length > 1) {
     return this.props.businesses.map( (business) =>
       <div className="business-info" key={business.id}>
         <div>
@@ -99,8 +90,9 @@ class BusinessSearchResults extends React.Component {
   }
 
   render() {
-
-
+    if (this.props.loading) {
+      return <div className="load-wheel"></div>;
+    }
     return (
       <div id="search-results-container">
 
