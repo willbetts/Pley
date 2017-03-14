@@ -1,5 +1,5 @@
 [Pley Live][Pley]
-* [Pley]: https://www.pley.today/#/
+[Pley]: https://www.pley.today/#/
 
 Pley is a full-stack web application inspired by Yelp.  It utilizes Ruby on Rails on the backend, a PostgreSQL database, and React.js with a Redux architectural framework on the frontend.
 
@@ -86,7 +86,7 @@ end
 
 
 ### Actions, Reducers and the Store
-jQuery's ajax function is used to fetch JSON from different views. The returned promise dispatches the JSON and the action it executed (i.e fetchBusinesses) to the root reducer through Thunk middleware. Based on the action the root reducer assigns the data to a different section of the store's state. 
+jQuery's ajax function is used to fetch JSON from different views. The returned promise dispatches the JSON and the action it executed (i.e fetchBusinesses) to the root reducer through Thunk middleware. Based on the action the root reducer assigns the data to a different section of the store's state.
 
 ```javascript
 export const fetchBusinesses = (query) => {
@@ -175,6 +175,6 @@ componentDidMount() {
 
 
 
-Filters
+### Filters
 
 I plan on utilizing filters to filter out the results by price as well as sorting them by highest review, closest, etc.
