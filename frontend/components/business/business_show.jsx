@@ -68,7 +68,7 @@ class BusinessShow extends Component {
 
           <div id="show-page-info" key={this.props.business.id}>
             <div className="show-title">
-              <div className="business-review-text">
+              <div className="business-show-text">
                 <li className="business-name-show">
                   {this.props.business.name}
                 </li>
@@ -83,9 +83,12 @@ class BusinessShow extends Component {
                   lat={this.props.business.latitude}
                   lng={this.props.business.longitude}/>
                 <div className="business-show-address-and-phone-number">
-                  <li>{this.props.business.address}</li>
+                  <li className="business-show-bold">{this.props.business.address}</li>
                   <li>{this.props.business.phoneNumber}</li>
+                  <a href={`https://www.google.com/maps/place/${this.props.business.address}/@${this.props.business.latitude},${this.props.business.longitude}`}>Get Directions</a>
+
                 </div>
+
               </div>
 
               <div className="business-review-photos">

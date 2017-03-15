@@ -29,6 +29,11 @@
   font-size: 24px;
 }
 
+.business-show-text {
+  background-color: white;
+  border: 1px solid;
+}
+
 .business-show-address-and-phone-number {
   list-style: none;
   font-family: 'Helvetica Neue';
@@ -67,4 +72,8 @@
 .map {
   height: 150px;
   width: 300px;
+}
+
+.business-show-bold {
+  font-weight: bold;
 }
