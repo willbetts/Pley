@@ -68,6 +68,7 @@ class BusinessShow extends Component {
 
           <div id="show-page-info" key={this.props.business.id}>
             <div className="show-title">
+              <div className="show-place-holder"></div>
               <div className="business-show-text">
                 <li className="business-name-show">
                   {this.props.business.name}

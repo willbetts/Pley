@@ -17,7 +17,7 @@
 }
 
 #show-stars {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 
@@ -26,19 +26,28 @@
   font-family: 'Helvetica Neue';
   display: flex;
   padding-top: 1vh;
-  font-size: 24px;
+  font-size: 17.5px;
 }
 
 .business-show-text {
   background-color: white;
-  border: 1px solid;
+  border: 1px solid lightgrey;
+  margin-top: 1vh;
+  padding: 0 1vw;
+  position: absolute;
+  width: 300px;
+  opacity: 1;
+}
+
+.show-place-holder {
+  opacity: 0;
+  width: 40vw;
 }
 
 .business-show-address-and-phone-number {
   list-style: none;
   font-family: 'Helvetica Neue';
-  font-size: 20px;
-  background-color: whitesmoke;
+  font-size: 15px;
 }
 
 .show-title{
@@ -57,6 +66,8 @@
   margin-top: 3vh;
   display: flex;
   flex-direction: row;
+  // max-width: 100px;
+
 }
 
 .image:hover {
