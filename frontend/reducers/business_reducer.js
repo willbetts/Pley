@@ -3,7 +3,7 @@ import merge from 'lodash/merge';
 import { REMOVE_REVIEW, RECEIVE_REVIEW } from '../actions/review_actions';
 
 
-const BusinessesReducer = (state = {}, action) => {
+const BusinessReducer = (state = {}, action) => {
   Object.freeze(state);
   switch(action.type) {
     case RECEIVE_BUSINESS:
@@ -28,8 +28,4 @@ const BusinessesReducer = (state = {}, action) => {
       }
   };
 
-export default BusinessesReducer;
-// case LOADING_SEARCH:
-// return Object.assign({}, state, { searchLoading: true });
-// case LOADED_SEARCH:
-//   return Object.assign({}, state, { searchLoading: false });
+export default BusinessReducer;
