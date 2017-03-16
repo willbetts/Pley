@@ -4,6 +4,7 @@ import BusinessSearch from './business_search';
 import BusinessHeader from './business_header_container';
 import NavLogo from '../nav_logo';
 import IndexMap from './index_map';
+import BusinessFilters from './business_filters';
 
 
 class BusinessSearchResults extends React.Component {
@@ -90,6 +91,7 @@ class BusinessSearchResults extends React.Component {
   }
 
   render() {
+
     if (this.props.loading) {
       return <div className="load-wheel"></div>;
     }
