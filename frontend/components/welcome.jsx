@@ -4,6 +4,7 @@ import BusinessSearch from './business/business_search';
 import Logo from './logo';
 
 
+
 const Welcome = (props) => (
   <div className="welcome">
     <div id="welcome-header">
