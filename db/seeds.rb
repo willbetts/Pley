@@ -809,7 +809,9 @@ Tagging.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Didn't plan on going to Ikinari but since the wait for Tim Ho Wan was an hour and half, we decided to check this spot out. I expected there to be a line but we went around 4:30pm on a Saturday so we did not have to wait at all. Upon entering, it was really confusing. No one came to greet us and we weren't sure whether to order in the back or stand at a table. Since we were both starving, we took our chances and went straight for a menu at one of the tables. Within 5mins, we both made our decision. I wanted ribeye and my friend opted for filet after I refuse to let him order ribeye too. We went to the back to place our steak orders. I wanted 300gram ribeye but butcher was pretty off and the piece came out to close to 400gram. We didn't want to be a pain and have him cut again so we kept it at that. My friend wanted 400gram filet and somehow the butcher cut a piece that was over 500gram! Seriously I'm not sure if it was intentional since we were okay with the first piece but this was a bit ridiculous. I thought this establishment was known for cutting steak close to what customers ordered. Since filet are more expensive, we asked to have a smaller piece. In the end, it was still over what we ordered at 433gram but the butcher already cut off 2 pieces so it was annoying to ask to cut another piece off. After we ordered the steaks, we found out a waiter or waitress was suppose to walk us to a table and provide us instructions on what to do. It was disappointing to find out we didn't get the full Ikinari experience! We were eventually led to a table and the waitress took down our side and drinks order.
+
+On to the food, I ordered my ribeye medium rare and it was cooked the way I want it. There are a decent selection of condiments at each table but I like the Ikinari sauce although it's a bit salty. My friend order his filet rare and it looked pretty red inside. The filet was tender and lean but we both like my ribeye more. Lastly, we tried the garlic pepper rice and it was surprisingly really good and flavorful! Overall, the steaks are good but don't expect it to be on par with well known steak establishments because it doesn't compare. The experience itself was mediocre and I still prefer to be seated while eating. Our bill came out to a little over $100 so it was pricier than expected. Good thing there's no tipping necessary, most likely because it's included in the price. Definitely a different experience but not sure if I would go back.",
   stars: 5,
   business_id: business_1.id,
   user_id: user_2.id,
@@ -818,7 +820,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_1.id,
   user_id: user_3.id,
@@ -827,7 +841,7 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "absolutely regular steak prices and you have to eat in a rush. not appetizing. you need to somewhat digest food before you start trailing it back on the city streets. I've been to japanese fast steak houses in berlin and they did have beautiful and futuristic seating areas with amazing prices. to stand, especially while walking all day, just to eat your expensive meal, is ridiculous. maybe if the steaks were $10, not $22-27.",
   stars: 4,
   business_id: business_1.id,
   user_id: user_4.id,

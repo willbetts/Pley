@@ -8,14 +8,14 @@ import BusinessSearchResults from './business/business_search_result_container';
 import BusinessShowContainer from './business/business_show_container';
 
 const _redirectIfLoggedIn = (nextState, replace) => {
-  const currentUser = store.getState().session.currentUser;
+  const currentUser = window.currentUser;
   if (currentUser) {
     replace('/');
   }
 }
 
 const _ensureLoggedIn = (nextState, replace) => {
-  const currentUser = store.getState().session.currentUser;
+  const currentUser = window.currentUser;
   if (!currentUser) {
     replace('/login');
   }
