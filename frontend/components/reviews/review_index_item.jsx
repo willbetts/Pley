@@ -39,7 +39,7 @@ class ReviewIndexItem extends React.Component {
       <div className="review-container">
         <div>
           <div className="review-title">
-            <li className="review-text">{this.props.review.title}</li>
+            <li>{this.props.review.title}</li>
           </div>
           <div className="stars">
             {this.displayStars()}
