@@ -850,7 +850,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_2.id,
   user_id: user_2.id,
@@ -859,7 +863,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_2.id,
   user_id: user_3.id,
@@ -868,7 +884,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_2.id,
   user_id: user_4.id,
@@ -877,7 +895,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_3.id,
   user_id: user_2.id,
@@ -886,7 +908,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_3.id,
   user_id: user_3.id,
@@ -895,7 +929,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_3.id,
   user_id: user_4.id,
@@ -904,7 +940,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_4.id,
   user_id: user_2.id,
@@ -913,7 +953,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_4.id,
   user_id: user_3.id,
@@ -922,7 +974,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_4.id,
   user_id: user_4.id,
@@ -931,7 +985,7 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "",
   stars: 5,
   business_id: business_5.id,
   user_id: user_2.id,
@@ -940,7 +994,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_5.id,
   user_id: user_3.id,
@@ -949,7 +1015,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_5.id,
   user_id: user_4.id,
@@ -958,7 +1026,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_6.id,
   user_id: user_2.id,
@@ -967,7 +1039,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_6.id,
   user_id: user_3.id,
@@ -976,7 +1060,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_6.id,
   user_id: user_4.id,
@@ -985,7 +1071,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_7.id,
   user_id: user_2.id,
@@ -994,7 +1084,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_7.id,
   user_id: user_3.id,
@@ -1003,7 +1105,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_7.id,
   user_id: user_4.id,
@@ -1012,7 +1116,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_8.id,
   user_id: user_2.id,
@@ -1021,7 +1129,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_8.id,
   user_id: user_3.id,
@@ -1030,7 +1150,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_8.id,
   user_id: user_4.id,
@@ -1039,7 +1161,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_9.id,
   user_id: user_2.id,
@@ -1048,7 +1174,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_9.id,
   user_id: user_3.id,
@@ -1057,7 +1195,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_9.id,
   user_id: user_4.id,
@@ -1066,7 +1206,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_10.id,
   user_id: user_2.id,
@@ -1075,7 +1219,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_10.id,
   user_id: user_3.id,
@@ -1084,7 +1240,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_10.id,
   user_id: user_4.id,
@@ -1093,7 +1251,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_11.id,
   user_id: user_2.id,
@@ -1102,7 +1264,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_11.id,
   user_id: user_3.id,
@@ -1111,7 +1285,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_11.id,
   user_id: user_4.id,
@@ -1120,7 +1296,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_12.id,
   user_id: user_2.id,
@@ -1129,7 +1309,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_12.id,
   user_id: user_3.id,
@@ -1138,7 +1330,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_12.id,
   user_id: user_4.id,
@@ -1147,7 +1341,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_13.id,
   user_id: user_2.id,
@@ -1156,7 +1354,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_13.id,
   user_id: user_3.id,
@@ -1165,7 +1375,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_13.id,
   user_id: user_4.id,
@@ -1174,7 +1386,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_14.id,
   user_id: user_2.id,
@@ -1183,7 +1399,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_14.id,
   user_id: user_3.id,
@@ -1192,7 +1420,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_14.id,
   user_id: user_4.id,
@@ -1201,7 +1431,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_15.id,
   user_id: user_2.id,
@@ -1210,7 +1444,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_15.id,
   user_id: user_3.id,
@@ -1219,7 +1465,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_15.id,
   user_id: user_4.id,
@@ -1228,7 +1476,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_16.id,
   user_id: user_2.id,
@@ -1237,7 +1489,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_16.id,
   user_id: user_3.id,
@@ -1246,7 +1510,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_16.id,
   user_id: user_4.id,
@@ -1255,7 +1521,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_17.id,
   user_id: user_2.id,
@@ -1264,7 +1534,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_17.id,
   user_id: user_3.id,
@@ -1273,7 +1555,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_17.id,
   user_id: user_4.id,
@@ -1282,7 +1566,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_18.id,
   user_id: user_2.id,
@@ -1291,7 +1579,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_18.id,
   user_id: user_3.id,
@@ -1300,7 +1600,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_18.id,
   user_id: user_4.id,
@@ -1309,7 +1611,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_20.id,
   user_id: user_2.id,
@@ -1318,7 +1624,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_20.id,
   user_id: user_3.id,
@@ -1327,7 +1645,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_20.id,
   user_id: user_4.id,
@@ -1336,7 +1656,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_21.id,
   user_id: user_2.id,
@@ -1345,7 +1669,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_21.id,
   user_id: user_3.id,
@@ -1354,7 +1690,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_21.id,
   user_id: user_4.id,
@@ -1363,7 +1701,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_22.id,
   user_id: user_2.id,
@@ -1372,7 +1714,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_22.id,
   user_id: user_3.id,
@@ -1381,7 +1735,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_22.id,
   user_id: user_4.id,
@@ -1390,7 +1746,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_23.id,
   user_id: user_2.id,
@@ -1399,7 +1759,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_23.id,
   user_id: user_3.id,
@@ -1408,7 +1780,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_23.id,
   user_id: user_4.id,
@@ -1417,7 +1791,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_24.id,
   user_id: user_2.id,
@@ -1426,7 +1804,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_24.id,
   user_id: user_3.id,
@@ -1435,7 +1825,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_24.id,
   user_id: user_4.id,
@@ -1444,7 +1836,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_25.id,
   user_id: user_2.id,
@@ -1453,7 +1849,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_25.id,
   user_id: user_3.id,
@@ -1462,7 +1870,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_25.id,
   user_id: user_4.id,
@@ -1472,7 +1882,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_27.id,
   user_id: user_2.id,
@@ -1481,7 +1895,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_27.id,
   user_id: user_3.id,
@@ -1490,7 +1916,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_27.id,
   user_id: user_4.id,
@@ -1499,7 +1927,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_28.id,
   user_id: user_2.id,
@@ -1508,7 +1940,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_28.id,
   user_id: user_3.id,
@@ -1517,7 +1961,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_28.id,
   user_id: user_4.id,
@@ -1526,7 +1972,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_29.id,
   user_id: user_2.id,
@@ -1535,7 +1985,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_29.id,
   user_id: user_3.id,
@@ -1544,7 +2006,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_29.id,
   user_id: user_4.id,
@@ -1553,7 +2017,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_30.id,
   user_id: user_2.id,
@@ -1562,7 +2030,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_30.id,
   user_id: user_3.id,
@@ -1571,7 +2051,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_30.id,
   user_id: user_4.id,
@@ -1580,7 +2062,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_31.id,
   user_id: user_2.id,
@@ -1589,7 +2075,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_31.id,
   user_id: user_3.id,
@@ -1598,7 +2096,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_31.id,
   user_id: user_4.id,
@@ -1607,7 +2107,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_32.id,
   user_id: user_2.id,
@@ -1616,7 +2120,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_32.id,
   user_id: user_3.id,
@@ -1625,7 +2141,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_32.id,
   user_id: user_4.id,
@@ -1634,7 +2152,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_33.id,
   user_id: user_2.id,
@@ -1643,7 +2165,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_33.id,
   user_id: user_3.id,
@@ -1652,7 +2186,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_33.id,
   user_id: user_4.id,
@@ -1661,7 +2197,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_34.id,
   user_id: user_2.id,
@@ -1670,7 +2210,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_34.id,
   user_id: user_3.id,
@@ -1679,7 +2231,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_34.id,
   user_id: user_4.id,
@@ -1688,7 +2242,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_35.id,
   user_id: user_2.id,
@@ -1697,7 +2255,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_35.id,
   user_id: user_3.id,
@@ -1706,7 +2276,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_35.id,
   user_id: user_4.id,
@@ -1715,7 +2287,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_36.id,
   user_id: user_2.id,
@@ -1724,7 +2300,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_36.id,
   user_id: user_3.id,
@@ -1733,7 +2321,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_36.id,
   user_id: user_4.id,
@@ -1742,7 +2332,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_37.id,
   user_id: user_2.id,
@@ -1751,7 +2345,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_37.id,
   user_id: user_3.id,
@@ -1760,7 +2366,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_37.id,
   user_id: user_4.id,
@@ -1769,7 +2377,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_38.id,
   user_id: user_2.id,
@@ -1778,7 +2390,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_38.id,
   user_id: user_3.id,
@@ -1787,7 +2411,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_38.id,
   user_id: user_4.id,
@@ -1796,7 +2422,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_39.id,
   user_id: user_2.id,
@@ -1805,7 +2435,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_39.id,
   user_id: user_3.id,
@@ -1814,7 +2456,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_39.id,
   user_id: user_4.id,
@@ -1823,7 +2467,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_40.id,
   user_id: user_2.id,
@@ -1832,7 +2480,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_40.id,
   user_id: user_3.id,
@@ -1841,7 +2501,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_40.id,
   user_id: user_4.id,
@@ -1850,7 +2512,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_41.id,
   user_id: user_2.id,
@@ -1859,7 +2525,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_41.id,
   user_id: user_3.id,
@@ -1868,7 +2546,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_41.id,
   user_id: user_4.id,
@@ -1877,7 +2557,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_42.id,
   user_id: user_2.id,
@@ -1886,7 +2570,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_42.id,
   user_id: user_3.id,
@@ -1895,7 +2591,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_42.id,
   user_id: user_4.id,
@@ -1904,7 +2602,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_43.id,
   user_id: user_2.id,
@@ -1913,7 +2615,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_43.id,
   user_id: user_3.id,
@@ -1922,7 +2636,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_43.id,
   user_id: user_4.id,
@@ -1931,7 +2647,11 @@ Review.create(
 
 Review.create(
   title: "yum",
-  body:  "really good! waitstaff was exceptional.  food tasted great.",
+  body:  "Fresh off the bus and looking for a place to eat and I had a sudden urge for tacos. My friends and I looked around and asked where we can get the best tacos around us. Los Tacos No. 1 was the most mentioned by our friends so we had to go. The restaurant is located in Chelsea Market and had a line as I assume it to be popular.
+
+The quesadilla, contrary to popular belief, was just a Taco with cheese in it but it was still amazing. I ordered the carne asada and chicken tacos. The tacos were loaded with meat and they had a salsa station too! After eating all my tacos I kept wanting to get more because that's how good they were. They even have horchata which is an interesting drink if you've never had it.
+
+The only downside to the location is that finding seating in the market is pretty much rare as most seating is private or taken as it's a small space.",
   stars: 5,
   business_id: business_44.id,
   user_id: user_2.id,
@@ -1940,7 +2660,19 @@ Review.create(
 
 Review.create(
   title: "awful",
-  body:  "terrible smell.  bad experience",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
   stars: 1,
   business_id: business_44.id,
   user_id: user_3.id,
@@ -1949,7 +2681,9 @@ Review.create(
 
 Review.create(
   title: "solid",
-  body:  "solid, that's it.",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
   business_id: business_44.id,
   user_id: user_4.id,
