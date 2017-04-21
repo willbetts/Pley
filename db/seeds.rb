@@ -139,7 +139,7 @@ business_1 = Business.create(
   address: "178 Broadway, Brooklyn, NY 11211",
   phone_number: "(718)-387-7400",
   website:"https://peterluger.com",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$$$",
   pickup_delivery: false
 )
@@ -151,7 +151,7 @@ business_2 = Business.create(
   address: "178 Broadway, Brooklyn, NY 11211",
   phone_number: "(718)-387-7400",
   website:"https://peterluger.com",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$$$",
   pickup_delivery: false
 )
@@ -162,7 +162,7 @@ business_3 = Business.create(
   address: "159 West 25th street, New York, New York, 10001",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$",
   pickup_delivery: false
 )
@@ -173,7 +173,7 @@ business_4 = Business.create(
   address: "72 Scholes Street, Brooklyn, NY 11211",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -184,7 +184,7 @@ business_5 = Business.create(
   address: "92 Scholes Street, Brooklyn, NY 11211",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$",
   pickup_delivery: false
 )
@@ -195,7 +195,7 @@ business_6 = Business.create(
   address: "19 21st street, New York, New York, 10001",
   phone_number: "(718)-387-7400",
   website: "https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -206,7 +206,7 @@ business_7 = Business.create(
   address: "19 Putnam Avenue, Brooklyn, NY",
   phone_number: "(718)-387-7400",
   website: "https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$",
   pickup_delivery: false
 )
@@ -217,7 +217,7 @@ business_8 = Business.create(
   address: "119 Broadway, Brooklyn, NY",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -228,7 +228,7 @@ business_9 = Business.create(
   address: "18 Fulton Street, Brooklyn, NY",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -239,7 +239,7 @@ business_10 = Business.create(
   address: "132 South 3rd street, Brooklyn, NY",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -250,7 +250,7 @@ business_11 = Business.create(
   address: "11 Lorimer Street, Brooklyn, NY",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$",
   pickup_delivery: false
 )
@@ -261,7 +261,7 @@ business_12 = Business.create(
   address: "60 Scholes Street, Brooklyn, NY",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$$",
   pickup_delivery: false
 )
@@ -272,7 +272,7 @@ business_13 = Business.create(
   address: "18 Fulton Street, Brooklyn, NY",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -283,7 +283,7 @@ business_14 = Business.create(
   address: "141 Broadway, Brooklyn, NY",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -294,7 +294,7 @@ business_15 = Business.create(
   address: "72 Montrose Ave, Brooklyn, NY",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -305,7 +305,7 @@ business_16 = Business.create(
   address: "141 Broadway, Brooklyn, NY",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -316,7 +316,7 @@ business_17 = Business.create(
   address: "91 Berry St, Brooklyn, NY",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -327,7 +327,7 @@ business_18 = Business.create(
   address: "41 Leonard Street, Brooklyn, NY",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -339,7 +339,7 @@ business_20 = Business.create(
   address: "19 Jackson Ave, Queens, NY",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -350,7 +350,7 @@ business_21 = Business.create(
   address: "132 West 19th Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -361,7 +361,7 @@ business_22 = Business.create(
   address: "132 West 27th Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://github.com/willbetts",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -372,7 +372,7 @@ business_23 = Business.create(
   address: "132 West 28th Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -383,7 +383,7 @@ business_24 = Business.create(
   address: "132 Union Ave, Brooklyn, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -394,7 +394,7 @@ business_25 = Business.create(
   address: "132 West 29th Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -405,7 +405,7 @@ business_27 = Business.create(
   address: "132 West 30th, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -416,7 +416,7 @@ business_28 = Business.create(
   address: "132 West 31st Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -427,7 +427,7 @@ business_29 = Business.create(
   address: "132 West 32nd Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -438,7 +438,7 @@ business_30 = Business.create(
   address: "132 West 33rd Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -449,7 +449,7 @@ business_31 = Business.create(
   address: "132 West 34th Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -460,7 +460,7 @@ business_32 = Business.create(
   address: "132 West 35th Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -471,7 +471,7 @@ business_33 = Business.create(
   address: "132 West 36th Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -482,7 +482,7 @@ business_34 = Business.create(
   address: "130 Atlantic Ave, Brooklyn, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -493,7 +493,7 @@ business_35 = Business.create(
   address: "132 West 37th Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -504,7 +504,7 @@ business_36 = Business.create(
   address: "132 West 38th Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -515,7 +515,7 @@ business_37 = Business.create(
   address: "132 West 39th Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -526,7 +526,7 @@ business_38 = Business.create(
   address: "132 West 40th Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -537,7 +537,7 @@ business_39 = Business.create(
   address: "132 West 41th street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -548,7 +548,7 @@ business_40 = Business.create(
   address: "132 West 42nd Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -559,7 +559,7 @@ business_41 = Business.create(
   address: "132 West 43rd Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -570,7 +570,7 @@ business_42 = Business.create(
   address: "132 West 44th , New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -581,7 +581,7 @@ business_43 = Business.create(
   address: "132 West 45th Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )
@@ -592,7 +592,7 @@ business_44 = Business.create(
   address: "132 West 46th Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
-  hours: {monday: "1-1"},
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
 )

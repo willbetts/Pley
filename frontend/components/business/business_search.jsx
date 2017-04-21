@@ -26,7 +26,7 @@ class BusinessSearch extends React.Component {
           <div id="search-form">
           <input type="submit" value="Find" id="search-form-button"/>
           <input type="text"
-            placeholder="   tacos, cheap dinner, Max's"
+            placeholder="   burrito, steak"
             value={this.state.query}
             onChange={(e) => this.setState({query: e.currentTarget.value })}
             id="search-form-input"/>

@@ -75,7 +75,7 @@ class ReviewForm extends React.Component {
             value={this.state.body}
             onChange={this.update('body')}
             ></textarea>
-        <input type="file" onChange={this.updateFile}/>
+          <input type="file" className="choose-file" onChange={this.updateFile}/>
         <img src = {this.state.imageUrl}/>
         </div>
       </form>
