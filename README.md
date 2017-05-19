@@ -1,6 +1,6 @@
 ## Pley
-[Pley Live][Pley]
-[Pley]: https://www.pley.today/#/
+[Pley Live][pley]
+
 
 Pley is a full-stack web application inspired by Yelp.  It utilizes Ruby on Rails on the backend, a PostgreSQL database, and React.js with a Redux architectural framework on the frontend.
 
@@ -179,3 +179,5 @@ componentDidMount() {
 ### Filters
 
 I plan on utilizing filters to filter out the results by price as well as sorting them by highest review, closest, etc.
+
+[pley]: https://www.pley.today/#/
