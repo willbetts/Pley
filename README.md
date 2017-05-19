@@ -1,6 +1,6 @@
 ## Pley
 [Pley Live][Pley]
-* [Pley]: https://www.pley.today/#/
+[Pley]: https://www.pley.today/#/
 
 Pley is a full-stack web application inspired by Yelp.  It utilizes Ruby on Rails on the backend, a PostgreSQL database, and React.js with a Redux architectural framework on the frontend.
 
