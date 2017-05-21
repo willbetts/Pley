@@ -620,7 +620,7 @@ business_44 = Business.create(
 business_44 = Business.create(
   name: "China Express",
   business_type: "restaurant",
-  address: "132 Houston Street, New York, New York",
+  address: "132 West Houston Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
@@ -631,7 +631,7 @@ business_44 = Business.create(
 business_45 = Business.create(
   name: "Best Tacos Ever",
   business_type: "restaurant",
-  address: "204 Houston Street, New York, New York",
+  address: "204 West Houston Street, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
@@ -642,7 +642,7 @@ business_45 = Business.create(
 business_46 = Business.create(
   name: "Los Tacos",
   business_type: "restaurant",
-  address: "181 1st Ave, New York, New York",
+  address: "181 1st Avenue, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
@@ -653,7 +653,7 @@ business_46 = Business.create(
 business_47 = Business.create(
   name: "Bob's Cheese Steaks",
   business_type: "restaurant",
-  address: "181 3rd Ave, New York, New York",
+  address: "181 3rd Avenue, New York, New York",
   phone_number: "(718)-387-7400",
   website:"https://www.linkedin.com/in/will-betts-bb17a892/",
   hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
