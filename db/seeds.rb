@@ -133,6 +133,26 @@ user_2 = User.create(
     name: "tacos"
   )
 
+  tag_21 = Tag.create(
+    name: "chinese"
+  )
+
+  tag_22 = Tag.create(
+    name: "doughnut"
+  )
+
+  tag_23 = Tag.create(
+    name: "ice cream"
+  )
+
+  tag_24 = Tag.create(
+    name: "tacos"
+  )
+
+  tag_25 = Tag.create(
+    name: "sandwhich"
+  )
+
 business_1 = Business.create(
   name: "Peter Lugers",
   business_type: "restaurant",
@@ -595,6 +615,86 @@ business_44 = Business.create(
   hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
   price: "$$",
   pickup_delivery: false
+)
+
+business_44 = Business.create(
+  name: "China Express",
+  business_type: "restaurant",
+  address: "132 Houston Street, New York, New York",
+  phone_number: "(718)-387-7400",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
+  price: "$$",
+  pickup_delivery: true
+)
+
+business_45 = Business.create(
+  name: "Best Tacos Ever",
+  business_type: "restaurant",
+  address: "204 Houston Street, New York, New York",
+  phone_number: "(718)-387-7400",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
+  price: "$$",
+  pickup_delivery: true
+)
+
+business_46 = Business.create(
+  name: "Los Tacos",
+  business_type: "restaurant",
+  address: "181 1st Ave, New York, New York",
+  phone_number: "(718)-387-7400",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
+  price: "$$",
+  pickup_delivery: true
+)
+
+business_47 = Business.create(
+  name: "Bob's Cheese Steaks",
+  business_type: "restaurant",
+  address: "181 3rd Ave, New York, New York",
+  phone_number: "(718)-387-7400",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
+  price: "$$",
+  pickup_delivery: true
+)
+
+business_48 = Business.create(
+  name: "Linda's",
+  business_type: "restaurant",
+  address: "1811 5th Ave Ave, New York, New York",
+  phone_number: "(718)-387-7400",
+  website:"https://www.linkedin.com/in/will-betts-bb17a892/",
+  hours: {monday: "1-1", tuesday: "1-1", wednesday: "1-1", thursday: "1-1", friday: "1-1", saturday: "1-1", sunday: "Closed"},
+  price: "$$",
+  pickup_delivery: true
+)
+
+Tagging.create(
+  business_id: business_48.id,
+  tag_id: tag_25.id
+)
+
+Tagging.create(
+  business_id: business_47.id,
+  tag_id: tag_25.id
+)
+
+Tagging.create(
+  business_id: business_46.id,
+  tag_id: tag_25.id
+)
+
+Tagging.create(
+  business_id: business_45.id,
+  tag_id: tag_25.id
+)
+
+Tagging.create(
+  business_id: business_44.id,
+  tag_id: tag_21.id
 )
 
 Tagging.create(

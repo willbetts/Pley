@@ -43,6 +43,7 @@ a{
   width: 30%;
   font-size: 15px;
   box-shadow: 10px;
+  padding: 8px;
 }
 
 
@@ -65,12 +66,14 @@ a{
 
 #auth-form-button {
   background: firebrick;
-  width: 31%;
+  width: 32%;
   color: white;
   height: 5vh;
   font-size: 15px;
   font-weight: bold;
+  padding-right: 3px;
 }
+
 
 .errors {
   color: firebrick;
