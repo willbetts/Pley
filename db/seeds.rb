@@ -2785,7 +2785,135 @@ Review.create(
 
 Owner made a point to make us feel welcome.  Will definitely be back!!",
   stars: 4,
-  business_id: business_44.id,
+  business_id: business_45.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
+  stars: 1,
+  business_id: business_45.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
+  stars: 4,
+  business_id: business_46.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
+  stars: 1,
+  business_id: business_46.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
+  stars: 4,
+  business_id: business_47.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
+  stars: 1,
+  business_id: business_47.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
+  stars: 4,
+  business_id: business_48.id,
+  user_id: user_4.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
+)
+
+Review.create(
+  title: "awful",
+  body:  "Came here on a Saturday afternoon at around 3pm. The place was half empty. You basically stand at one of the tables and wait for the waitress to come help you where you order any sides and then you go up to the meat counter with your table number and order your meat. Overall the steak was tasty and came quickly. I like that they have lots of sauces for you to add. I found their hot J-sauce overly salty and liquidy.
+
+I also got the soup and salad set with was 4 dollars. The soup came in a tea cup and was tiny!! However the soup was a very rich beef broth that warmed me up quickly
+
+The food was good but they need to up the training on their staff. I was in a group of 5 and they messed up our orders in various ways.
+
+1. My friends ordered a mixed salad but that never came so they asked the waitress to just cancel the order, who seemed very confused at the time.
+
+2. My friend ordered a ribeye steak but was instead charged for a fillet steak.
+
+3. The steaks come with corn as a side automatically but you can ask to sub it with other vegetables. I asked for mine to be subbed with broccoli, but it came with corn. When I asked the waiter about it he said he was going to bring the broccoli out right away, but the broccoli never came in the entire ~40 mins that we were there.
+
+Overall this is a decently priced steak place with a unique concept. I do like that tips and tax are included in the price of the food. I might come back sometime.... but in a few months when hopefully by then their staff will be better trained.",
+  stars: 1,
+  business_id: business_48.id,
+  user_id: user_3.id,
+  business_photo: open('https://s3.amazonaws.com/business-photo-dev/burger250.jpg')
+)
+
+Review.create(
+  title: "solid",
+  body:  "What a gem for happy hour and beyond!  Really great menu and tunes for an upscale pub vibe. Don't miss the waygu sliders- they are awesome. Great selection of beers and nice wines too.   Margaritas need a little work though.
+
+Owner made a point to make us feel welcome.  Will definitely be back!!",
+  stars: 4,
+  business_id: business_48.id,
   user_id: user_4.id,
   business_photo: open('https://s3.amazonaws.com/business-photo-dev/pizza250.jpeg')
 )
